@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 市原　健太郎
+title: 市原健太郎
 
 # Name pronunciation (optional)
 name_pronunciation: Kentaro Ichihara
