@@ -3,7 +3,7 @@
 title: Kentaro Ichihara
 
 # Name pronunciation (optional)
-name_pronunciation: 市原 健太郎
+name_pronunciation: 市原健太郎
 
 # Full name (for SEO)
 first_name: Kentaro
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Freelance Engineer / Representative
+role: Representative / Freelance Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -31,7 +31,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:kentaro.ichihara.ba@gmail.com'
+    url: 'mailto:kentaro.ichihara.bz@gmail.com'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/
@@ -122,10 +122,14 @@ skills:
         description: ''
         percent: 70
         icon: chart-bar
-      - name: Production equipment control
+      - name: Web app
         description: ''
-        percent: 30
-        icon: circle-stack
+        percent: 40
+        icon: globe-alt
+      - name: Production Equipment Control
+        description: ''
+        percent: 20
+        icon: cpu-chip
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -140,14 +144,14 @@ skills:
         icon: person-simple-walk
       - name: Running
         description: ''
-        percent: 50
+        percent: 30
         icon: person-simple-walk
 
 languages:
   - name: Japanese
     percent: 100
   - name: English
-    percent: 50
+    percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -161,7 +165,7 @@ awards:
     awarder: Amazon Web Services Training and Certification
     summary: |
       -　Validates foundational knowledge of AWS Cloud concepts, services, and terminology.
-  - title: 【Award】 AWS Cloud Quest Cloud Practitioner
+  - title: 【Completion】 AWS Cloud Quest Cloud Practitioner
     url: https://explore.skillbuilder.aws/learn/courses/11458/aws-cloud-quest-cloud-practitioner
     certificate_url: https://www.credly.com/earner/earned/badge/aa256142-cf42-4142-bbea-ecddb82c3b1a
     date: '2025-03-21'
@@ -176,7 +180,7 @@ awards:
   - title: 【Certification】 OSHA 10-Hour Training
     url: https://www.osha.gov/training
     date: '2017-07-13'
-    awarder: Occupational Safety and Health Administration (OSHA)
+    awarder: Occupational Safety and Health Administration, USA (OSHA)
     summary: |
       Learned:
         - Gained foundational knowledge of workplace safety and health standards as outlined by OSHA.
@@ -193,6 +197,22 @@ awards:
     awarder: Ministry of Health, Labour and Welfare, Japan
     summary: |
       - Certified advanced skills in electric equipment assembly, including wiring, testing, and troubleshooting of electrical systems.
+  - title: 【Award】 Panasonic Manufacturing Skills Competition - Sequence Control Bronze Award
+    date: '2014-08-01'
+    awarder: Panasonic Co., Ltd.
+    summary: |
+      - Achieved a bronze medal in an internal competition showcasing technical skills.
+  - title: 【Certification】 First-Class Electric Equipment Assembly 
+    url: https://www.mhlw.go.jp/content/11800000/001167908.pdf
+    date: '2016-03-11'
+    awarder: Ministry of Health, Labour and Welfare, Japan
+    summary: |
+      - Certified advanced skills in electric equipment assembly, including wiring, testing, and troubleshooting of electrical systems.
+  - title: 【Award】 Panasonic Manufacturing Skills Competition - Sequence Control Bronze Award
+    date: '2013-07-29'
+    awarder: Panasonic Co., Ltd.
+    summary: |
+      - Achieved a bronze medal in an internal competition showcasing technical skills.
   - title: 【Certification】 Quality Management Certification Second class
     url: https://webdesk.jsa.or.jp/common/W10K0500/index/qc/qc_qc1/
     date: '2012-10-11'
@@ -201,7 +221,7 @@ awards:
       - Demonstrates the ability to independently address and improve many quality-related issues commonly encountered in the workplace by utilizing statistical methods, including the Seven QC Tools and New Seven QC Tools. 
       - This certification validates a sufficient understanding of quality management practices and the capability to carry out appropriate activities. 
       - It also certifies the ability to autonomously conduct basic management and improvement activities.
-  - title: 【Award】 iRVision 2D Correction Basic Course
+  - title: 【Completion】 iRVision 2D Correction Basic Course
     url: https://www.fanuc.co.jp/ja/training/course/robot/rsvub.html
     date: '2012-09-05'
     awarder: FANUC Corporation
@@ -209,7 +229,7 @@ awards:
       Learned:
         - Acquired basic knowledge and skills in operating and programming the iRVision built-in vision function for robot controllers.
         - Understood and practiced the operation and programming methods for the 2D correction function using a single camera.
-  - title: 【Award】 Robot Teaching and Operation General Course
+  - title: 【Completion】 Robot Teaching and Operation General Course
     url: https://www.fanuc.co.jp/ja/training/course/robot/rt2.html
     date: '2012-02-03'
     awarder: FANUC Corporation
@@ -218,6 +238,12 @@ awards:
         - Acquired knowledge and skills in robot teaching and operation, focusing on programming methods for material handling.
         - Understood and practiced robot teaching and operation methods, programming using basic commands, system operation, and daily inspection methods.
         - Received a completion certificate for the Special Safety and Health Education for Teaching and Operation.
+  - title: 【Certification】 Hazardous Materials Handler Class 4
+    date: '2007-07-10'
+    awarder: Fire and Disaster Management Agency, Japan
+    summary: |
+      - Certified to safely handle and manage hazardous materials, specifically flammable liquids, in compliance with Japanese safety regulations.
+
 ---
 
 ## About Me
