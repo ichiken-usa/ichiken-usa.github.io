@@ -21,9 +21,26 @@
 
 とりあえず構造がわからなくても変更できるauthorから変更。
 
+- content/authors/admin/_index.md
+  - 情報を修正
+  - 新しく枠を追加するのがわからないのでタイトル修正してアワードと資格両方を記入
+  - Languagesのパーセントのグラフが逆で修正方法がわからないのでいったん英語を50％に。
+  - certificate_url: https://www.credly.com/badges/4bd00f45-afdb-4ebe-9480-b19c38d1b9c6　で勝手にSee certificateというリンクを作ってくれる
+
 ### ナビゲーション修正
 
 - config/_default/menus.yaml
   - bioをHomeに変更
   - 不要な項目を削除
   - weightを変更して順番調整
+- content/project.mdを削除
+- postフォルダをblogに変更してmenus.yamlもblogに変更
+
+### ウェブサイト
+
+- config/_default/hugo.yamlのWebsite name変更
+
+```yaml
+# Website name
+title: Nexa Engineering
+```
