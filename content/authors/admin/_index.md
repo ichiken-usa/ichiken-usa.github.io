@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Representative
+role: Freelance Engineer / Representative
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -63,7 +63,7 @@ work:
     company_logo: ''
     date_start: 2025-04-01
     date_end: ''
-    summary: |2-
+    summary: |
       Responsibilities include:
       - Conducting research and development in data analysis and model building in collaboration with clients
       - Supporting the development of web applications for clients
@@ -76,7 +76,7 @@ work:
     date_end: 2025-03-31
     summary: |
       Responsibilities include:
-      - Developing production systems for a new automotive lithium-ion battery factory in the United States and Wakayama Japan
+      - Developing production systems for a new automotive lithium-ion battery factory in the United States and Wakayama, Japan
       - Developing data analysis applications for production processes using Python
   - position: Technical Advisor
     company_name: Panasonic Energy of North America
@@ -86,7 +86,7 @@ work:
     date_end: 2022-07-31
     summary: |
       Responsibilities include:
-      - Implementing and improving equipment and systems for formation, warehouses, and shipping processes of automotive lithium-ion batteries
+      - Implementing and improving equipment and systems for formation, warehouses, and shipping processes of automotive lithium-ion batteries in Nevada, the United States 
       - Developing inter-process transportation monitoring systems and establishing an operations team
       - Localizing knowledge and skills
 
@@ -101,9 +101,9 @@ skills:
         icon: code-bracket
       - name: Data Science
         description: ''
-        percent: 100
+        percent: 50
         icon: chart-bar
-      - name: SQL
+      - name: Data Engineering
         description: ''
         percent: 40
         icon: circle-stack
