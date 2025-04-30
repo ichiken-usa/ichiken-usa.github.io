@@ -12,3 +12,5 @@
 どうやらこれが使われている模様。
 [https://heroicons.com](https://heroicons.com)
 
+アイコンはこのサイトで判明
+[https://okawayusuke.com/blog/2024/hugo-markdown/](https://okawayusuke.com/blog/2024/hugo-markdown/)

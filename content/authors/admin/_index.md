@@ -70,8 +70,8 @@ work:
       - Supporting the development of web applications for clients
       - Collaborating with clients to deliver tailored software solutions
   - position: Chief and Assistant Manager
-    company_name: Panasonic Energy Co., Ltd.
-    company_url: 'https://www.panasonic.com/jp/energy/'
+    company_name: Panasonic Energy Co., Ltd. (Japan)
+    company_url: https://www.panasonic.com/jp/energy/
     company_logo: ''
     date_start: 2022-08-01
     date_end: 2025-03-31
@@ -80,7 +80,7 @@ work:
       - Developing production systems for a new automotive lithium-ion battery factory in the United States and Wakayama, Japan
       - Developing data analysis applications for production processes using Python
   - position: Technical Advisor
-    company_name: Panasonic Energy of North America Co., Ltd.
+    company_name: Panasonic Energy of North America Co., Ltd. (The United States)
     company_url: 'https://na.panasonic.com/panasonic-energy'
     company_logo: ''
     date_start: 2017-04-01
@@ -91,7 +91,7 @@ work:
       - Developing inter-process transportation monitoring systems and establishing an operations team
       - Localizing knowledge and skills
   - position: Manufacturing Engineer
-    company_name: Panasonic Storage Battery Co., Ltd.
+    company_name: Panasonic Storage Battery Co., Ltd. (Japan, China)
     company_url: 'https://na.panasonic.com/panasonic-energy'
     company_logo: ''
     date_start: 2012-01-01
@@ -102,7 +102,7 @@ work:
       - Developing and improving equipment and systems for formation and shipping processes of lead-acid batteries in Shizuoka, Japan
       - Developing new equipment for assembly processes using innovative methods.
   - position: Manufacturing Engineer
-    company_name: Panasonic Co., Ltd.
+    company_name: Panasonic Co., Ltd. (Japan)
     company_url: ''
     company_logo: ''
     date_start: 2010-04-01
@@ -112,7 +112,7 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Technical Skills (freq)
     items:
       - name: Python
         description: ''
@@ -136,11 +136,11 @@ skills:
     items:
       - name: Camping
         description: ''
-        percent: 100
+        percent: 70
         icon: fire
       - name: Trekking 
         description: ''
-        percent: 50
+        percent: 40
         icon: person-simple-walk
       - name: Running
         description: ''
@@ -151,7 +151,7 @@ languages:
   - name: Japanese
     percent: 100
   - name: English
-    percent: 25
+    percent: 50
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -238,7 +238,7 @@ awards:
         - Acquired knowledge and skills in robot teaching and operation, focusing on programming methods for material handling.
         - Understood and practiced robot teaching and operation methods, programming using basic commands, system operation, and daily inspection methods.
         - Received a completion certificate for the Special Safety and Health Education for Teaching and Operation.
-  - title: 【Certification】 Hazardous Materials Handler Class 4
+  - title: 【Certification】 Hazardous Materials Handler Cat. 4
     date: '2007-07-10'
     awarder: Fire and Disaster Management Agency, Japan
     summary: |
