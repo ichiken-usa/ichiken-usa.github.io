@@ -21,3 +21,9 @@
 
 とりあえず構造がわからなくても変更できるauthorから変更。
 
+### ナビゲーション修正
+
+- config/_default/menus.yaml
+  - bioをHomeに変更
+  - 不要な項目を削除
+  - weightを変更して順番調整
