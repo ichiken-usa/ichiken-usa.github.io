@@ -68,7 +68,6 @@ work:
       - Participation in [the development of disaggregation technology for the Green Innovation Fund Project](https://www.meti.go.jp/shingikai/sankoshin/green_innovation/industrial_restructuring/pdf/023_09_00.pdf)
       - Conducting research and development in data analysis and model building in collaboration with clients
       - Supporting the development of web applications for clients
-      - Collaborating with clients to deliver tailored software solutions
   - position: Chief and Assistant Manager
     company_name: Panasonic Energy Co., Ltd. (Japan)
     company_url: https://www.panasonic.com/jp/energy/
