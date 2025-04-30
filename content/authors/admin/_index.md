@@ -11,7 +11,7 @@ last_name: Ichihara
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 💻
 
 # Is this the primary user of the site?
 superuser: true
@@ -43,61 +43,52 @@ interests:
   - Computational Linguistics
   - Information Retrieval
 
+# 大学院
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: MEng Information Technology
+    institution: Shinshu University
+    date_start: 2007-04-01
+    date_end: 2010-03-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Thesis on _Detection of floating pollen by a laser-induced fluorescence spectrum(LIFS) lidar_. Supervised by Prof Yasunori Saito. Presented papers at the 25~27th Laser Sensing Symposium.
     button:
       text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      url: 'https://laser-sensing.jp/26thLSS/26th_papers/P30_ichihara.pdf'
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+# 仕事
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Freelance Engineer / Representative
+    company_name: Nexa Engineering
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2025-04-01
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
+      - Conducting research and development in data analysis and model building in collaboration with clients
+      - Supporting the development of web applications for clients
+      - Collaborating with clients to deliver tailored software solutions
+  - position: Chief and Assistant Manager
+    company_name: Panasonic Energy Co., Ltd.
+    company_url: 'https://www.panasonic.com/jp/energy/'
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2022-08-01
+    date_end: 2025-03-31
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Developing production systems for a new automotive lithium-ion battery factory in the United States and Wakayama Japan
+      - Developing data analysis applications for production processes using Python
+  - position: Technical Advisor
+    company_name: Panasonic Energy of North America
+    company_url: 'https://na.panasonic.com/panasonic-energy'
+    company_logo: ''
+    date_start: 2017-04-01
+    date_end: 2022-07-31
+    summary: |
+      Responsibilities include:
+      - Implementing and improving equipment and systems for formation, warehouses, and shipping processes of automotive lithium-ion batteries
+      - Developing inter-process transportation monitoring systems and establishing an operations team
+      - Localizing knowledge and skills
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
