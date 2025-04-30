@@ -10,7 +10,10 @@ main:
   - name: Blog
     url: blog/
     weight: 20
+  - name: Tag
+    url: tags/
+    weight: 21
   - name: Experience
     url: experience/
-    weight: 25
+    weight: 30
 
