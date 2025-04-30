@@ -26,7 +26,7 @@ sections:
       show_skill_percentage: false
   - block: resume-awards
     content:
-      title: Awards
+      title: Awards and Certifications
       username: admin
   - block: resume-languages
     content:
