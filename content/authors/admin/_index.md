@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 市原健太郎
+title: Kentaro Ichihara
 
 # Name pronunciation (optional)
-name_pronunciation: Kentaro Ichihara
+name_pronunciation: 市原 健太郎
 
 # Full name (for SEO)
 first_name: Kentaro
@@ -91,16 +91,23 @@ work:
       - Developing inter-process transportation monitoring systems and establishing an operations team
       - Localizing knowledge and skills
   - position: Manufacturing Engineer
-    company_name: Panasonic Storage Battery
+    company_name: Panasonic Storage Battery Co., Ltd.
     company_url: 'https://na.panasonic.com/panasonic-energy'
     company_logo: ''
     date_start: 2012-01-01
     date_end: 2017-03-31
     summary: |
       Responsibilities include:
-      - Implementing and improving equipment and systems for formation, warehouses, and shipping processes of automotive lithium-ion batteries in Nevada, the United States 
-      - Developing inter-process transportation monitoring systems and establishing an operations team
-      - Localizing knowledge and skills
+      - Implementing equipment for assembly processes of lead-acid batteries in Shenyang, China
+      - Developing and improving equipment and systems for formation and shipping processes of lead-acid batteries in Shizuoka, Japan
+      - Developing new equipment for assembly processes using innovative methods.
+  - position: Manufacturing Engineer
+    company_name: Panasonic Co., Ltd.
+    company_url: ''
+    company_logo: ''
+    date_start: 2010-04-01
+    date_end: 2011-12-31
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -109,39 +116,35 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 100
         icon: code-bracket
       - name: Data Engineering
         description: ''
-        percent: 50
+        percent: 70
         icon: chart-bar
-      - name: Data Engineering
+      - name: Production equipment control
         description: ''
-        percent: 40
+        percent: 30
         icon: circle-stack
-      - name: Data Engineering
-        description: ''
-        percent: 40
-        icon: book-open
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
+      - name: Camping
         description: ''
         percent: 100
-        icon: cat
-      - name: Photography
+        icon: fire
+      - name: Trekking 
         description: ''
-        percent: 80
-        icon: camera
+        percent: 50
+        icon: person-simple-walk
+      - name: Running
+        description: ''
+        percent: 50
+        icon: person-simple-walk
 
 languages:
-  - name: Japanes
+  - name: Japanese
     percent: 100
   - name: English
     percent: 50
@@ -151,26 +154,70 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: AWS Certified Cloud Practitioner
+  - title: 【Certification】 AWS Certified Cloud Practitioner
     url: https://aws.amazon.com/certification/certified-cloud-practitioner/?nc1=h_ls
     certificate_url: https://www.credly.com/badges/4bd00f45-afdb-4ebe-9480-b19c38d1b9c6
     date: '2025-04-12'
     awarder: Amazon Web Services Training and Certification
     summary: |
-      The AWS Certified Cloud Practitioner validates foundational, high-level understanding of AWS Cloud, services, and terminology.  This is a good starting point on the AWS Certification journey for individuals with no prior IT or cloud experience switching to a cloud career or for line-of-business employees looking for foundational cloud literacy.
-  - title: AWS Cloud Quest Cloud Practitioner
+      -　Validates foundational knowledge of AWS Cloud concepts, services, and terminology.
+  - title: 【Award】 AWS Cloud Quest Cloud Practitioner
     url: https://explore.skillbuilder.aws/learn/courses/11458/aws-cloud-quest-cloud-practitioner
     certificate_url: https://www.credly.com/earner/earned/badge/aa256142-cf42-4142-bbea-ecddb82c3b1a
     date: '2025-03-21'
     awarder: Amazon Web Services Training and Certification
-  - title: Python 3 Certified Engineer Basic Exam
+    summary: |
+      - Demonstrates practical knowledge of AWS Cloud concepts through interactive role-playing and hands-on challenges.
+  - title: 【Certification】 Python 3 Certified Engineer Basic Exam
     date: '2022-09-24'
-    awarder: 一般社団法人 Pythonエンジニア育成推進協会
-  - title: Fundamental Information Technology Engineer Examination (FE)
+    awarder: Python Engineer Certification Examination Center, Japan
+    summary: |
+      - Demonstrates basic knowledge and skills in Python programming, including syntax, data structures, and object-oriented programming.
+  - title: 【Certification】 OSHA 10-Hour Training
+    url: https://www.osha.gov/training
+    date: '2017-07-13'
+    awarder: Occupational Safety and Health Administration (OSHA)
+    summary: |
+      Learned:
+        - Gained foundational knowledge of workplace safety and health standards as outlined by OSHA.
+        - Covered topics such as hazard identification, prevention, and control, including basic fall protection, electrical safety, and personal protective equipment (PPE).
+        - Received a completion certificate demonstrating the ability to recognize and address common workplace hazards effectively.
+  - title: 【Certification】 Fundamental Information Technology Engineer Examination (FE)
     date: '2016-05-16'
     awarder: Information-Technology Promotion Agency, Japan (IPA)
     summary: |
       - Certified foundational knowledge and skills in information technology, including programming, algorithms, and system design.
+  - title: 【Certification】 First-Class Electric Equipment Assembly 
+    url: https://www.mhlw.go.jp/content/11800000/001167908.pdf
+    date: '2016-03-11'
+    awarder: Ministry of Health, Labour and Welfare, Japan
+    summary: |
+      - Certified advanced skills in electric equipment assembly, including wiring, testing, and troubleshooting of electrical systems.
+  - title: 【Certification】 Quality Management Certification Second class
+    url: https://webdesk.jsa.or.jp/common/W10K0500/index/qc/qc_qc1/
+    date: '2012-10-11'
+    awarder: Japan Society for Quality Control (JSQC)
+    summary: |
+      - Demonstrates the ability to independently address and improve many quality-related issues commonly encountered in the workplace by utilizing statistical methods, including the Seven QC Tools and New Seven QC Tools. 
+      - This certification validates a sufficient understanding of quality management practices and the capability to carry out appropriate activities. 
+      - It also certifies the ability to autonomously conduct basic management and improvement activities.
+  - title: 【Award】 iRVision 2D Correction Basic Course
+    url: https://www.fanuc.co.jp/ja/training/course/robot/rsvub.html
+    date: '2012-09-05'
+    awarder: FANUC Corporation
+    summary: |
+      Learned:
+        - Acquired basic knowledge and skills in operating and programming the iRVision built-in vision function for robot controllers.
+        - Understood and practiced the operation and programming methods for the 2D correction function using a single camera.
+  - title: 【Award】 Robot Teaching and Operation General Course
+    url: https://www.fanuc.co.jp/ja/training/course/robot/rt2.html
+    date: '2012-02-03'
+    awarder: FANUC Corporation
+    summary: |
+      Learned:
+        - Acquired knowledge and skills in robot teaching and operation, focusing on programming methods for material handling.
+        - Understood and practiced robot teaching and operation methods, programming using basic commands, system operation, and daily inspection methods.
+        - Received a completion certificate for the Special Safety and Health Education for Teaching and Operation.
 ---
 
 ## About Me
