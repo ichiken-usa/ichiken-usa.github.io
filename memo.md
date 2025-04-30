@@ -17,6 +17,11 @@
 
 ## HPのベースを完成させる
 
+- bio関連
+- ナビゲーション
+- ブログページ関連
+- タグページ
+
 ### bio関連情報変更
 
 とりあえず構造がわからなくても変更できるauthorから変更。
@@ -36,7 +41,30 @@
 - content/project.mdを削除
 - postフォルダをblogに変更してmenus.yamlもblogに変更
 
-### ウェブサイト
+最終的にはこれだけにした
+
+```yaml
+main:
+  - name: Home
+    url: /
+    weight: 10
+  - name: Blog
+    url: blog/
+    weight: 20
+  - name: Tag
+    url: tags/
+    weight: 21
+  - name: Experience
+    url: experience/
+    weight: 30
+```
+
+### ブログページ
+
+そのままだとまとめのページがないのでteachingを流用
+postをblogに変更
+
+### 細々
 
 - config/_default/hugo.yamlのWebsite name変更
 
@@ -44,3 +72,4 @@
 # Website name
 title: Nexa Engineering
 ```
+
