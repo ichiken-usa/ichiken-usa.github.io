@@ -35,9 +35,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. 
-        
-        Please reach out to collaborate 😃
+        Under Construction. 
     design:
       columns: '1'
   - block: collection

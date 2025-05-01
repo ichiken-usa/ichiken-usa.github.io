@@ -19,7 +19,7 @@ The Site may collect visitor information in the following ways:
   The Site uses Google Analytics to analyze visitor traffic. Google Analytics uses cookies to collect traffic data. This data is collected anonymously and does not identify individuals.  
   For more details, please refer to [Google's Privacy Policy](https://policies.google.com/privacy?hl=en).
 
-- **Google Search Console**
+- **Google Search Console**  
   The Site uses Google Search Console to monitor and improve its performance in search engine results. Google Search Console collects and processes data such as search queries, clicks, and impressions. This data is aggregated and does not identify individual users.  
   For more details, please refer to [Google's Privacy Policy](https://policies.google.com/privacy?hl=en).
 
