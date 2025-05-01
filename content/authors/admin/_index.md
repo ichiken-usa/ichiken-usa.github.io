@@ -247,4 +247,6 @@ awards:
 
 ## About Me
 
-I am Kentaro Ichihara, the representative of Nexa Engineering and a freelance engineer. I specialize in data-driven manufacturing process improvements, leveraging expertise in machine automation control, web application development, and data science. This diverse skill set allows me to consistently deliver comprehensive solutions for process optimization and application development.
+I am Kentaro Ichihara, the representative of Nexa Engineering and a freelance engineer.  
+I specialize in data-driven manufacturing process improvements, leveraging expertise in machine automation control, web application development, and data science.  
+This diverse skill set allows me to consistently deliver comprehensive solutions for process optimization and application development!

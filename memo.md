@@ -95,3 +95,13 @@ main:
     url: privacy-policy/
     weight: 40
 ```
+
+### カスタムドメイン
+
+[GitHub Pages サイトのカスタムドメインを管理する](https://docs.github.com/ja/enterprise-cloud@latest/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain)
+
+[【2024年版】GitHub Pagesで独自のカスタムドメインを設定する方法](https://qiita.com/sotanengel/items/034dd37cbc0dde9f7c86)
+
+[xserverドメインをgithub pagesで使う](https://qiita.com/nanana_0777/items/4de3513b597b3983d456)
+
+[Xserver Domain で取得したドメインを使って GitHub Pages で HTTPS に対応したサイトを公開する方法](https://y-ktzw.com/posts/custom-domain/)
