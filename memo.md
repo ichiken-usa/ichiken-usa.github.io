@@ -75,3 +75,23 @@ postをblogに変更
 title: Nexa Engineering
 ```
 
+### プライバシーポリシーページ追加
+
+```yaml
+main:
+  - name: Home
+    url: /
+    weight: 10
+  - name: Blog
+    url: blog/
+    weight: 20
+  - name: Tag
+    url: tags/
+    weight: 21
+  - name: Experience
+    url: experience/
+    weight: 30
+  - name: Privacy Policy
+    url: privacy-policy/
+    weight: 40
+```
