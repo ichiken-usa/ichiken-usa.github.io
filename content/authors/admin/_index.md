@@ -57,7 +57,7 @@ education:
 
 # 仕事
 work:
-  - position: Freelance Engineer / Representative
+  - position: Representative / Freelance Engineer
     company_name: Nexa Engineering
     company_url: ''
     company_logo: ''
