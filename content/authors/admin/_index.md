@@ -201,12 +201,6 @@ awards:
     awarder: Panasonic Co., Ltd.
     summary: |
       - Achieved a bronze medal in an internal competition showcasing technical skills.
-  - title: 【Certification】 First-Class Electric Equipment Assembly 
-    url: https://www.mhlw.go.jp/content/11800000/001167908.pdf
-    date: '2016-03-11'
-    awarder: Ministry of Health, Labour and Welfare, Japan
-    summary: |
-      - Certified advanced skills in electric equipment assembly, including wiring, testing, and troubleshooting of electrical systems.
   - title: 【Award】 Panasonic Manufacturing Skills Competition - Sequence Control Bronze Award
     date: '2013-07-29'
     awarder: Panasonic Co., Ltd.
