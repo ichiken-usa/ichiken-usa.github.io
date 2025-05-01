@@ -11,19 +11,19 @@ appearance:
 # SEO
 marketing:
   seo:
-    site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    site_type: Website
+    local_business_type: 'ProfessionalService'
+    org_name: 'Nexa Engineering'
+    description: 'Nexa Engineering - A professional service website showcasing projects, research, and achievements.'  # サイトの説明
+    twitter: ''
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-ZHXYF9SV90'
     baidu_tongji: ''
     plausible: ''
     fathom: ''
     pirsch: ''
   verification:
-    google: ''
+    google: 'pgR6lWI68jc-ipOPpBfLScuafEmqqs2N9wRIxTUrqKQ'
     baidu: ''
 
 # Site header
