@@ -3,7 +3,6 @@ title: Contact Us / お問い合わせ
 date: 2025-05-01
 authors:
   - admin
-type: landing
 ---
 
 Please fill out the form below.  
