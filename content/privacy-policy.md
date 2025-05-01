@@ -60,7 +60,7 @@ This Privacy Policy may be updated as necessary. The updated policy will take ef
 For inquiries regarding this Privacy Policy, please contact us at the following email address:  
 本プライバシーポリシーに関するお問い合わせは、以下のメールアドレスまでご連絡ください。
 
-- Email: [kentaro.ichihara.bz@gmail.com](mailto:kentaro.ichihara.bz@gmail.com)  
+- Email: [kentaro.ichihara.bz@gmail.com](mailto:kentaro.ichihara.bz@gmail.com)
 
 ---
 
