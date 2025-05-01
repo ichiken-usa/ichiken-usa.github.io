@@ -105,3 +105,16 @@ main:
 [xserverドメインをgithub pagesで使う](https://qiita.com/nanana_0777/items/4de3513b597b3983d456)
 
 [Xserver Domain で取得したドメインを使って GitHub Pages で HTTPS に対応したサイトを公開する方法](https://y-ktzw.com/posts/custom-domain/)
+
+ホスト名を空欄でAとAAAAを登録。
+ホスト名にwwwを入れてCNAMEを登録。
+1時間くらいしてから確認。→ githubのsettings→Pagesのカスタムドメインにwwwなしで入力。早すぎると失敗する。
+
+### GoogleアナリティクスとGoogle search console 
+
+- アナリティクス
+  - カスタムドメインとSSLをやってからが良い。
+  - https://nexa-eng.com で登録してIDをパラメータへ入力。
+- サーチコンソール
+  - xserverに.nexa-eng.comの前の部分コピペ。TXT。コード
+  - しばらく放置して再度サーチコンソールで確認。→ アクセス成功
