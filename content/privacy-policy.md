@@ -1,7 +1,8 @@
 ---
 title: Privacy Policy / プライバシーポリシー
 date: 2025-05-01
-type: landing
+authors:
+  - admin
 ---
 
 This website ("the Site") respects the privacy of its visitors and is committed to protecting personal information. This Privacy Policy explains how personal information is handled on the Site.  
