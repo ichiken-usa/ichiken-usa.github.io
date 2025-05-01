@@ -19,3 +19,6 @@ main:
   - name: Privacy Policy
     url: privacy-policy/
     weight: 40
+  - name: Contact Us
+    url: contact-us/
+    weight: 41
