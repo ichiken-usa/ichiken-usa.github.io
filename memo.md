@@ -28,6 +28,7 @@
 
 - content/authors/admin/_index.md
   - 情報を修正
+  - アバター置き換え
   - 新しく枠を追加するのがわからないのでタイトル修正してアワードと資格両方を記入
   - Languagesのパーセントのグラフが逆で修正方法がわからないのでいったん英語を50％に。
   - certificate_url: https://www.credly.com/badges/4bd00f45-afdb-4ebe-9480-b19c38d1b9c6　で勝手にSee certificateというリンクを作ってくれる
@@ -40,6 +41,7 @@
   - weightを変更して順番調整
 - content/project.mdを削除
 - postフォルダをblogに変更してmenus.yamlもblogに変更
+- 追加とか削除はブラウザのキャッシュにより意図しない表示になる可能性があるので、あれ？と思ったら更新ボタン押すべし
 
 最終的にはこれだけにした
 
