@@ -1,0 +1,3 @@
+[submodule "themes/hugo-blox-builder"]
+	path = themes/hugo-blox-builder
+	url = https://github.com/HugoBlox/hugo-blox-builder.git
