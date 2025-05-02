@@ -1,10 +1,18 @@
 name: Merge to main workflows
 
+env:
+  WC_HUGO_VERSION: 'latest'
+
 # run when a commit is pushed to "source" branch
 on:
   push:
     branches:
     - main
+# Provide permission to clone the repo and deploy it to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   deploy-to-gh-pages:
@@ -16,7 +24,7 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3.0.0
       with:
-        hugo-version: 'latest'
+        hugo-version: ${{ env.WC_HUGO_VERSION }}
         extended: true
 
     - name: Update Hugo Modules
@@ -35,9 +43,11 @@ jobs:
     - name: Build
       run: hugo --minify --enableGitInfo
 
-    # Add a CNAME file for custom domain
+    # Add a CNAME file for custom domain extracted from hugo.yaml
     - name: Add CNAME for custom domain
-      run: echo "nexa-eng.com" > ./public/CNAME
+      run: |
+        base_url=$(hugo config | grep baseURL | awk '{print $2}')
+        echo $base_url > ./public/CNAME
     
     # push the generated content into the `gh-pages` branch.
     - name: Deploy
