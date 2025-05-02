@@ -35,6 +35,10 @@ jobs:
     - name: Build
       run: hugo --minify --enableGitInfo
 
+    # Add a CNAME file for custom domain
+    - name: Add CNAME for custom domain
+      run: echo "nexa-eng.com" > ./public/CNAME
+    
     # push the generated content into the `gh-pages` branch.
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v4.0.0
