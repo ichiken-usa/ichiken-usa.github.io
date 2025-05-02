@@ -1,21 +1,38 @@
 [build]
-  command = "hugo --gc --minify -b $URL && npx pagefind --source 'public'"
-  publish = "public"
-
-[build.environment]
-  HUGO_VERSION = "0.136.5"
-  HUGO_ENABLEGITINFO = "true"
+command = "hugo --gc --minify"
+publish = "public"
 
 [context.production.environment]
-  HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+HUGO_ENV           = "production"
+HUGO_VERSION       = "0.146.4"
+NODE_VERSION       = "v23.11.0"
+NPM_VERSION        = "10.9.2"
+
+[context.split1]
+command = "hugo mod tidy && hugo mod npm pack && npm install && hugo --gc --minify --enableGitInfo"
+
+    [context.split1.environment]
+    HUGO_ENV     = "production"
+    HUGO_VERSION = "0.146.4"
+    NODE_VERSION = "v23.11.0"
+    NPM_VERSION  = "10.9.2"
 
 [context.deploy-preview]
-  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL && npx pagefind --source 'public'"
+command = "hugo mod tidy && hugo mod npm pack && npm install && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+
+    [context.deploy-preview.environment]
+    HUGO_VERSION = "0.146.4"
+    NODE_VERSION = "v23.11.0"
+    NPM_VERSION  = "10.9.2"
 
 [context.branch-deploy]
-  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL && npx pagefind --source 'public'"
+command = "hugo mod tidy && hugo mod npm pack && npm install && hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
-[[plugins]]
-  package = "netlify-plugin-hugo-cache-resources"
-  [plugins.inputs]
-    debug = true
+    [context.branch-deploy.environment]
+    HUGO_VERSION = "0.146.4"
+    NODE_VERSION = "v23.11.0"
+    NPM_VERSION  = "10.9.2"
+
+[context.next.environment]
+HUGO_ENABLEGITINFO = "true"

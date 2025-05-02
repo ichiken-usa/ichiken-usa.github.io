@@ -1,10 +1,9 @@
-module github.com/HugoBlox/hugo-blox-builder/starters/academic-cv
+module github.com/ichiken-usa/hugo-toha.github.io
 
-go 1.19
+go 1.21
 
-require (
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20250301201144-44e75541f7be
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.3.2
-)
+require github.com/hugo-toha/toha/v4 v4.8.1-0.20250414164834-722336146405 // indirect
 
-require github.com/HugoBlox/hugo-blox-builder/modules/blox-analytics v0.1.3 // indirect
+// replace(
+//     github.com/hugo-toha/toha/v4 => ../toha
+// )
