@@ -5,5 +5,6 @@
 [https://toha-guides.netlify.app/posts/](https://toha-guides.netlify.app/posts/)
 
 - `Quickstart`で確認。すんなりOK。
-- 学歴編集
+- Author編集
+- Education編集
 - 
