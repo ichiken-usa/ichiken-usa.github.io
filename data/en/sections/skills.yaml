@@ -3,7 +3,7 @@ section:
   name: Skills
   id: skills
   enable: true
-  weight: 20
+  weight: 35
   showOnNavbar: false
   filter: true
   # Can optionally hide the title in sections
@@ -13,51 +13,203 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Basic
-  filter: "basic"
 - name: Language
   filter: "language"
-- name: Container
-  filter: "container"
+- name: Data Science
+  filter: "data"
+- name: Web Development
+  filter: "web"
+- name: Manufacturing
+  filter: "automation"
 - name: Others
   filter: "others"
+- name: Proficient
+  filter: "proficient"
+- name: Skilled
+  filter: "skilled"
+- name: Experienced
+  filter: "experienced"
 
 # Your Skills.
-# Give a summary of you each skill in the summary section.
 skills:
 - name: Python
   logo: /images/sections/skills/python-logo-only.png
   summary: "Proficient in Python programming for web development, data analysis, and automation. Experienced in building scalable applications and integrating with various APIs."
-  categories: ["language"]
+  categories: ["language", "data", "web", "proficient"]
   url: "https://www.python.org"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+- name: Pandas
+  summary: "Proficient in data manipulation and analysis using Pandas."
+  categories: ["data", "proficient"]
+  url: "https://pandas.pydata.org/"
+
+- name: Matplotlib
+  summary: "Skilled in creating data visualizations using matplotlib."
+  categories: ["data", "skilled"]
+  url: "https://matplotlib.org/"
+
+- name: Scikit-learn
+  summary: "Skilled in machine learning and data preprocessing using Scikit-learn."
+  categories: ["data", "skilled"]
+  url: "https://scikit-learn.org/stable/"
+
+- name: TensorFlow
+  summary: "Experienced in building and training machine learning models using TensorFlow."
+  categories: ["data", "experienced"]
+  url: "https://www.tensorflow.org/"
+
+- name: FastAPI
+  summary: "Skilled in building high-performance APIs using FastAPI."
+  categories: ["web", "skilled"]
+  url: "https://fastapi.tiangolo.com/"
+
+- name: Selenium
+  summary: "Proficient in web automation and testing using Selenium."
+  categories: ["data", "web", "proficient"]
+  url: "https://www.selenium.dev/"
+
+- name: OpenCV
+  summary: "Skilled in image processing and computer vision using OpenCV."
+  categories: ["data", "skilled"]
+  url: "https://opencv.org/"
+
+- name: Flask
+  summary: "Experienced in developing lightweight web applications using Flask."
+  categories: ["web", "experienced"]
+  url: "https://flask.palletsprojects.com/"
+
+- name: Hugo
+  summary: "Experienced in creating static websites using Hugo."
+  categories: ["web", "experienced"]
+  url: "https://gohugo.io/"
+
+- name: HTML
+  summary: "Skilled in writing semantic and accessible HTML."
+  categories: ["web", "skilled"]
+  url: "https://html.spec.whatwg.org/multipage/"
+
+- name: Bootstrap
+  summary: "Experienced in designing responsive web interfaces using Bootstrap."
+  categories: ["web", "experienced"]
+  url: "https://getbootstrap.com/"
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
+  summary: "Experienced with multi-stage, multi-arch build process."
+  categories: ["others", "experienced"]
   url: "https://www.docker.com/"
+
+- name: Nginx
+  summary: "Experienced in configuring and managing Nginx web servers."
+  categories: ["web", "experienced"]
+  url: "https://www.nginx.com/"
+
+- name: Jupyter Notebook
+  summary: "Skilled in using Jupyter Notebook for interactive data analysis and visualization."
+  categories: ["data", "others", "skilled"]
+  url: "https://jupyter.org/"
+
+- name: Markdown
+  summary: "Skilled in using Markdown for documentation and creating static web pages."
+  categories: ["others", "skilled"]
+  url: "https://www.markdownguide.org/"
+
+- name: VMWare ESXi
+  summary: "Skilled in managing virtualized environments using VMWare ESXi."
+  categories: ["others", "skilled"]
 
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+  summary: "Skilled in using Linux as the main operating system and writing bash/shell scripts."
+  categories: ["others", "skilled"]
+  url: "https://www.kernel.org/"
+
+- name: Windows Server
+  summary: "Skilled in managing and configuring Windows Server environments."
+  categories: ["others", "skilled"]
+  url: "https://www.microsoft.com/en-us/windows-server"
+
+- name: Raspberry Pi
+  summary: "Skilled in using Raspberry Pi for various projects, including IoT and automation."
+  categories: ["others", "skilled"]
+  url: "https://www.raspberrypi.org/"
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["others"]
+  summary: "Skilled with git-based development. Mostly, use GitHub. Also, have experience in working with GitLab."
+  categories: ["others", "skilled"]
   url: "https://git-scm.com/"
+
+- name: GitHub
+  summary: "Skilled in using GitHub for version control, collaboration, and CI/CD workflows."
+  categories: ["others", "skilled"]
+  url: "https://github.com/"
 
 - name: C Sharp
   logo: /images/sections/skills/c-sharp.png
-  summary: "Proficient in C# programming for developing desktop applications and web services. Experienced in object-oriented programming and .NET framework."
-  categories: ["language"]
+  summary: "Experienced in C# programming for developing desktop applications and web services. "
+  categories: ["language", "experienced"]
+  url: "https://learn.microsoft.com/en-us/dotnet/csharp/"
 
-- name: Ladder logic
-  summary: "Proficient in ladder logic programming for PLCs. Experienced in designing and troubleshooting control systems for industrial automation. Mitsubishi, Omuron, Keyence, Allen Bradley, etc."
-  categories: ["language"]
+- name: AWS
+  summary: "Experienced in using AWS services for cloud infrastructure, deployment, and management."
+  categories: ["others", "experienced"]
+  url: "https://aws.amazon.com/"
+
+- name: UWSC
+  summary: "Proficient in using UWSC for Windows automation and scripting tasks."
+  categories: ["language", "proficient"]
+  url: "https://uwsc.jp"
+
+- name: SQL
+  summary: "Skilled in writing SQL queries for data extraction and manipulation."
+  categories: ["language", "skilled"]
+
+- name: FANUC Robot Programming
+  summary: "Skilled in programming FANUC robots for industrial automation."
+  categories: ["automation", "language", "skilled"]
+  url: "https://www.fanuc.com"
+
+- name: PLC Programming
+  summary: "Proficient in PLC programming for Mitsubishi, Omron, and Keyence systems."
+  categories: ["automation", "language", "proficient"]
+
+- name: MC Protocol
+  summary: "Skilled in using MC Protocol for communication with Mitsubishi PLCs."
+  categories: ["automation", "skilled"]
+
+- name: Keyence Vision Inspection
+  summary: "Skilled in configuring and using Keyence vision inspection systems."
+  categories: ["automation", "skilled"]
+  url: "https://www.keyence.com/"
+
+- name: Omron Vision Inspection
+  summary: "Skilled in setting up and operating Omron vision inspection systems."
+  categories: ["automation", "skilled"]
+  url: "https://www.omron.com/global/en/"
+
+- name: IAI Multi-Axis Robot
+  summary: "Experienced in programming and operating IAI multi-axis robots."
+  categories: ["automation", "experienced"]
+  url: "https://www.iai-robot.co.jp/"
+
+- name: OPC UA
+  summary: "Experienced in using OPC UA for industrial communication and data exchange in automation systems."
+  categories: ["automation", "experienced"]
+  url: "https://opcfoundation.org/about/opc-technologies/opc-ua/"
+
+- name: OpenAI API
+  summary: "Experienced in integrating OpenAI API for building AI-powered applications, including natural language processing and generative AI solutions."
+  categories: ["data", "web", "experienced"]
+  url: "https://platform.openai.com/"
+
+- name: PHP
+  summary: "Experienced in using PHP for server-side scripting and building dynamic web applications."
+  categories: ["language", "web", "experienced"]
+  url: "https://www.php.net/"
+
+- name: JavaScript
+  summary: "Experienced in using JavaScript for client-side scripting, DOM manipulation, and building interactive web applications."
+  categories: ["language", "web", "experienced"]
+  url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+
