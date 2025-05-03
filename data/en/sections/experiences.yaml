@@ -33,7 +33,7 @@ experiences:
 - company:
     name: Panasonic Energy Co., Ltd.
     url: "https://www.panasonic.com/jp/energy/"
-    location: Osaka, Japan
+    location: Osaka, Japan | Shizuoka, Japan | Wakayama, Japan | Shenyang, China | Nevada, USA 
     logo: /images/sections/experiences/Panasonic_ENERGY_logo_02_1.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company2.jpg
