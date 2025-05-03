@@ -1,0 +1,116 @@
+/* カラーコードを変数化 */
+:root {
+    --primary-color: #009988;
+    --secondary-color: #ddfff5;
+    --text-color-light: #fff;
+    --border-color: #ddd;
+    --heading-font-size-large: 2.5rem;
+    --heading-font-size-medium: 2rem;
+    --heading-font-size-small: 1.75rem;
+}
+
+p {
+    margin: 1.5rem 0; /* 段落ごとの上下の間隔を広げる */
+    line-height: 1.8; /* 行間を調整 */
+}
+
+/* 箇条書きの間隔を調整 */
+ul, ol {
+    margin: 1rem 0; /* 箇条書き全体の上下の余白 */
+    padding-left: 2rem; /* 箇条書きの左側のインデント */
+}
+
+li {
+    margin-bottom: 0.5rem; /* 各リスト項目の間隔 */
+    line-height: 1.6; /* 行間を調整 */
+}
+
+/* 共通スタイル */
+h1,
+h2,
+h3 {
+    font-weight: bold;
+    margin: 2rem 0; /* 上下に余白を追加 */
+    line-height: 2;
+}
+
+/* h1スタイル */
+h1 {
+    font-size: var(--heading-font-size-large);
+    color: var(--primary-color);
+    /*border-bottom: 3px solid var(--primary-color);*/
+    padding-bottom: 0.5rem;
+    text-align: center;
+    display: block;
+    width: 85%;
+    margin: 2rem auto;
+}
+
+/* h2スタイル */
+h2 {
+    font-size: var(--heading-font-size-medium);
+    /*background: var(--secondary-color);*/
+    border-left: solid 15px var(--primary-color);
+    border-bottom: solid 2px var(--primary-color);
+    color: var(--text-color-light) !important;
+    padding: 1rem 2rem !important;
+    text-align: left;
+}
+
+/* h3スタイル */
+h3 {
+    font-size: var(--heading-font-size-small);
+    padding: 0.5rem 1.5rem;
+    background: transparent;
+    border-left: solid 10px var(--primary-color);
+}
+
+/* 画像スタイル */
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* 水平線スタイル */
+hr {
+    border: 0;
+    height: 2px;
+    border-bottom: 2px solid;
+}
+
+/* テキスト装飾 */
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* テーブルスタイル */
+table {
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: solid 1px var(--border-color);
+}
+
+table th {
+    background-color: var(--primary-color);
+    color: var(--text-color-light) !important;
+}
+
+/* テキスト位置 */
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
