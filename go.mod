@@ -1,4 +1,4 @@
-module github.com/ichiken-usa/hugo-toha.github.io
+module github.com/ichiken-usa/ichiken-usa.github.io
 
 go 1.21
 

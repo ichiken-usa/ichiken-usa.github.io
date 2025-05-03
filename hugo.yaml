@@ -70,7 +70,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/ichiken-usa/hugo-toha.github.io
+  gitRepo: https://github.com/ichiken-usa/ichiken-usa.github.io
   # Default branch of your Git repo
   gitBranch: main
 

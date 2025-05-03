@@ -12,13 +12,27 @@ description: Portfolio and personal blog of Kentaro Ichihara at Nexa Engineering
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
 customMenus:
-- name: Docs
-  url: https://toha-guides.netlify.app/posts/
+#- name: Theme Docs
+#  url: https://toha-guides.netlify.app/posts/
   # specify whether to hide the menu item from top navbar or not.
-  hideFromNavbar: false
+#  hideFromNavbar: false
   # specify whether to show the menu item in footer or not.
   # if you set it to true, make sure you have set `footer.navigation.customMenus: true` in your config.yaml
-  showOnFooter: false
+#  showOnFooter: false
+- name: Posts
+  url: posts/
+  hideFromNavbar: true
+  showOnFooter: true
+
+- name: Privacy Policy
+  url: privacy-policy/
+  hideFromNavbar: false
+  showOnFooter: true
+
+- name: Contact
+  url: contact/
+  hideFromNavbar: false
+  showOnFooter: true
 
 # Specify OpenGraph Headers
 openGraph:
