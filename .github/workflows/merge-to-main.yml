@@ -40,9 +40,7 @@ jobs:
 
     # Add a CNAME file for custom domain extracted from hugo.yaml
     - name: Add CNAME for custom domain
-      run: |
-        base_url=$(hugo config | grep baseURL | awk '{print $2}')
-        echo $base_url > ./public/CNAME
+      run:  echo nexa-eng.com > ./public/CNAME
     
     # push the generated content into the `gh-pages` branch.
     - name: Deploy
