@@ -9,6 +9,13 @@
 {{ end }}
 
 <div class="container anchor p-lg-5 about-section" id="{{ $sectionID }}">
+  {{ if not (.section.hideTitle) }}
+    <h1 class="text-center">
+        <span id="{{ $sectionID }}"></span>{{ .section.name }}</h1>
+  {{ else }}
+    <h1 class="text-center" style="display: none">
+        <span id="{{ $sectionID }}"></span>{{ .section.name }}</h1>
+  {{ end }}
   <div class="row pt-sm-2 pt-md-4 align-self-center">
     <!-- summary -->
     <!-- takes up full section width if no badges/soft skills are specified -->
