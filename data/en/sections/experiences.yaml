@@ -21,7 +21,7 @@ experiences:
     overview: Nexa Engineering is led by Kentaro Ichihara, a freelance engineer specializing in data-driven manufacturing process improvements. With expertise in machine automation control, web application development, and data science, Nexa Engineering delivers comprehensive solutions to optimize processes and develop innovative applications. The company bridges the gap between technology and efficiency, ensuring impactful results for clients.
   positions:
   - designation: Representative / Freelance Engineer
-    start: 2025/04
+    start: Apr 2025
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
@@ -40,23 +40,23 @@ experiences:
     overview: Panasonic Energy Co., Ltd. operates in business areas that support daily life with dry batteries and provide batteries for the automotive industry, including EVs, as well as for social infrastructure.
   positions:
   - designation: Chief and Assistant Manager of Manufacturing System Engineering, Japan
-    start: 2022/08
-    end: 2025/03
+    start: Aug 2022
+    end: Mar 2025
     responsibilities:
       - Developing production systems for a new automotive lithium-ion battery factory in the United States and Wakayama, Japan
       - Developing data analysis applications for production processes using Python
  
   - designation: Technical Advisor of Manufacturing System Engineering, USA
-    start: 2017/04
-    end: 2022/08
+    start: Apr 2017
+    end: Aug 2022
     responsibilities:
       - Implementing and improving equipment and systems for formation, warehouses, and shipping processes of automotive lithium-ion batteries in Nevada, the United States 
       - Developing inter-process transportation monitoring systems and establishing an operations team
       - Localizing knowledge and skills
 
   - designation: Control Engineer of Manufacturing Engineering, Japan
-    start: 2010/04
-    end: 2017/03
+    start: Apr 2010
+    end: Mar 2017
     responsibilities:
       - Implementing equipment for assembly processes of lead-acid batteries in Shenyang, China
       - Developing and improving equipment and systems for formation and shipping processes of lead-acid batteries in Shizuoka, Japan
