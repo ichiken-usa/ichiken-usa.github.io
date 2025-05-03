@@ -114,3 +114,19 @@ table th {
 .left {
     text-align: left;
 }
+
+/* Experienceセクションの表示調整 */
+.experience-entry-heading {
+    margin-bottom: 2rem; /* 会社間の余白を追加 */
+}
+
+.company-heading + h6.text-heading {
+    margin-top: 1.5rem; /* ポジション名とResponsibilitiesの間の余白を広げる */
+}
+
+.my-position-divider {
+    border: 0;
+    border-top: 2px solid #ddd; /* 線の色 */
+    margin: 1rem 0; /* 上下の余白 */
+}
+

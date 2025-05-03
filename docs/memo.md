@@ -11,3 +11,11 @@
   - [https://toha-guides.netlify.app/posts/customizing/customize-layout/](https://toha-guides.netlify.app/posts/customizing/customize-layout/)
   - layoutフォルダをコピー
   - variables.scssで文字間等を調整
+  - Experienceの表示が気になるので修正　layouts/partials/sections/experiences/positions.html
+    - 縦一直線化
+    - タイトルとResponsibilitiesの間が狭いのでCSSで調整
+    - 在籍期間を改行
+    - 会社間の隙間をbootstrapで調整
+    - ポジション間に水平線追加
+    - 
+  - Aboutの自己紹介文を左揃えに修正

@@ -1,4 +1,4 @@
-<div class="col-10 col-lg-8">
+<div class="col-10 col-lg-8 my-2" style="text-align: left;"> <!--会社間のスペースを調整＆文字を左揃え-->
     <div class="experience-entry-heading">
         {{ $logoImage:= resources.Get .company.logo}}
         {{ $darkLogoImage:= resources.Get .company.darkLogo}}
@@ -15,9 +15,12 @@
         {{ $mostRecentPosition := index (first 1 .positions) 0}}
         <div class="company-heading">
             <h5>{{ if .company.url }}<a href={{.company.url}} title="{{ .company.name }}" target="_blank" rel="noopener">{{ .company.name }}</a>{{ else }}{{ .company.name }}{{ end }}</h5>
-            <p class="text-muted">
-                {{ $oldestPosition.start }} - {{ if $mostRecentPosition.end }}{{ $mostRecentPosition.end }}{{ else }}{{ i18n "present" }}{{ end }}
-            </p>
+            <!-- 在籍期間を改行 -->
+            <div>
+                <p class="text-muted">
+                    {{ $oldestPosition.start }} - {{ if $mostRecentPosition.end }}{{ $mostRecentPosition.end }}{{ else }}{{ i18n "present" }}{{ end }}
+                </p>
+            </div>
         </div>
         <p class="text-muted">
             <i class="fa-solid fa-location-dot"></i> {{ .company.location }}
@@ -27,20 +30,28 @@
     </div>
     <!-- Add the positions information -->
     <div class="positions">
-    {{ range $index,$position:= .positions }}
-        <div class="company-heading">
-            <h5 class="designation">{{ $position.designation }}</h5>
-            <p class="text-muted">{{ $position.start }} - {{if $position.end }} {{ $position.end }} {{else}} {{ i18n "present" }} {{end}}</p>
-        </div>
-        <!-- Add the responsibilities handled at this position -->
-        {{ if $position.responsibilities }}
-            <h6 class="text-heading">{{ i18n "responsibilities" }}</h6>
-            <ul class="justify-content-around">
-                {{ range $position.responsibilities }}
-                    <li>{{ . | markdownify }}</li>
-                {{ end }}
-            </ul>
+        {{ range $index,$position:= .positions }}
+            <div class="company-heading">
+                <!-- ポジション名 -->
+                <h5 class="designation">{{ $position.designation }}</h5>
+                <!-- 在籍期間を改行 -->
+                <div>
+                    <p class="text-muted position-duration">
+                        {{ $position.start }} - {{ if $position.end }}{{ $position.end }}{{ else }}{{ i18n "present" }}{{ end }}
+                    </p>
+                </div>
+            </div>
+            <!-- Add the responsibilities handled at this position -->
+            {{ if $position.responsibilities }}
+                <h6 class="text-heading">{{ i18n "responsibilities" }}</h6>
+                <ul class="justify-content-around">
+                    {{ range $position.responsibilities }}
+                        <li>{{ . | markdownify }}</li>
+                    {{ end }}
+                </ul>
+            {{ end }}
+            <!-- ポジション間に水平線追加 -->
+            <hr class="position-divider">
         {{ end }}
-    {{ end }}
     </div>
 </div>
