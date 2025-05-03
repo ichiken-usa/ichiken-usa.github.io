@@ -3,15 +3,15 @@ section:
   name: About
   id: about
   enable: true
-  weight: 1
+  weight: 10
   showOnNavbar: true
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Representative / Freelance Engineer
 # your company information
 company:
-  name: Example Co.
+  name: Nexa Engineering
   url: "https://nexa-eng.com/"
 
 # your resume. this file path should be relative to you "static" directory
@@ -19,83 +19,58 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: 'I am Kentaro Ichihara, the representative of Nexa Engineering and a freelance engineer. I specialize in data-driven manufacturing process improvements, leveraging expertise in machine automation control, web application development, and data science.  This diverse skill set allows me to consistently deliver comprehensive solutions for process optimization and application development!'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "kentaro.ichihara@nexa-eng.com"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
-
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
-
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.github.com/ichiken-usa"
 
 - name: Twitter
   icon: "fab fa-twitter"
   url: "#"
 
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
-
-- name: Mastadon
-  icon: "fab fa-mastodon"
-  url: "#"
-  rel: "me noopener"
-
-- name: ResearchGate
-  icon: "fab fa-researchgate"
-  url: "https://www.researchgate.net/profile/john-doe"
-
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-- title: "My Resume"
+- title: "My Resume - Under Construction"
   url: "files/resume.pdf"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
-- type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
-
-- type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
-
-- type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
-
 - type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
+  name: Japanese
+  percentage: 100
   color: blue
 
 - type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
-  color: yellow
+  name: English
+  percentage: 50
+  color: green
 
 - type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
+  name: Chines
+  percentage: 10
   color: orange
+
+- type: certification
+  name: AWS Certified Cloud Practitioner
+  url: "https://www.credly.com/badges/4bd00f45-afdb-4ebe-9480-b19c38d1b9c6"
+  badge: "https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
+
+- type: certification
+  name: First-Class Electric Equipment Assembly Engineer
+  url: "https://waza.mhlw.go.jp/kenteiseido/"
+  badge: "https://waza.mhlw.go.jp/logo/images/img-logomark.jpg"
+
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator

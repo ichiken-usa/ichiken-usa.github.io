@@ -3,44 +3,105 @@ section:
   name: Accomplishments
   id: accomplishments
   enable: true
-  weight: 9
-  showOnNavbar: true
+  weight: 40
+  showOnNavbar: false
   # Can optionally hide the title in sections
   # hideTitle: true
 
-
 # Your accomplishments
 accomplishments:
-- name: Linux Foundation System Administrator
-  timeline: "March 2018 - March 2019"
+- name: 【Certification】 AWS Certified Cloud Practitioner
+  timeline: "April 2025"
   organization:
-    name: Linux Foundation
-    url: https://www.linuxfoundation.org
-  courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
-  certificateURL: "https://example.com"
+    name: Amazon Web Services Training and Certification
+    url: https://aws.amazon.com/certification/certified-cloud-practitioner/?nc1=h_ls
+  courseOverview: |
+    Validates foundational knowledge of AWS Cloud concepts, services, and terminology.
+  certificateURL: "https://www.credly.com/badges/4bd00f45-afdb-4ebe-9480-b19c38d1b9c6"
 
-- name: Machine Learning
-  timeline: "Jun 2020 - Jan 2021"
+- name: 【Completion】 AWS Cloud Quest Cloud Practitioner
+  timeline: "March 2025"
   organization:
-    name: Coursera
-    url: https://www.coursera.org
-  courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
-  certificateURL: "https://example.com"
+    name: Amazon Web Services Training and Certification
+    url: https://explore.skillbuilder.aws/learn/courses/11458/aws-cloud-quest-cloud-practitioner
+  courseOverview: |
+    Demonstrates practical knowledge of AWS Cloud concepts through interactive role-playing and hands-on challenges.
+  certificateURL: "https://www.credly.com/earner/earned/badge/aa256142-cf42-4142-bbea-ecddb82c3b1a"
 
-- name: Grokking the System Design Interview
-  timeline: "Jan 2018 - Sept 2018"
+- name: 【Certification】 Python 3 Certified Engineer Basic Exam
+  timeline: "September 2022"
   organization:
-    name: educative
-    url: https://www.educative.io
-  courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
-  certificateURL: "https://example.com"
+    name: Python Engineer Certification Examination Center, Japan
+  courseOverview: |
+    Demonstrates basic knowledge and skills in Python programming, including syntax, data structures, and object-oriented programming.
 
-- name: Mastering Multithreading Programming with Go (Golang)
-  timeline: "Nov 2017 - Mar 2018"
+- name: 【Certification】 OSHA 10-Hour Training
+  timeline: "July 2017"
   organization:
-    name: Udemy
-    url: https://www.udemy.com
-  courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, multithreading topics.
-  certificateURL: "https://example.com"
- 
+    name: Occupational Safety and Health Administration, USA (OSHA)
+    url: https://www.osha.gov/training
+  courseOverview: |
+    Gained foundational knowledge of workplace safety and health standards as outlined by OSHA. Covered topics such as hazard identification, prevention, and control, including basic fall protection, electrical safety, and personal protective equipment (PPE).
 
+- name: 【Certification】 Fundamental Information Technology Engineer Examination (FE)
+  timeline: "May 2016"
+  organization:
+    name: Information-Technology Promotion Agency, Japan (IPA)
+    url: https://www.ipa.go.jp/en/
+  courseOverview: |
+    Certified foundational knowledge and skills in information technology, including programming, algorithms, and system design.
+
+- name: 【Certification】 First-grade Electric Equipment Assembly
+  timeline: "March 2016"
+  organization:
+    name: Ministry of Health, Labour and Welfare, Japan
+    url: https://www.mhlw.go.jp/content/11800000/001167908.pdf
+  courseOverview: |
+    Certified advanced skills in electric equipment assembly, including wiring, testing, and troubleshooting of electrical systems.
+
+- name: 【Award】 Panasonic Manufacturing Skills Competition - Sequence Control Bronze Award
+  timeline: "August 2014"
+  organization:
+    name: Panasonic Co., Ltd.
+    url: https://holdings.panasonic/global/
+  courseOverview: |
+    Achieved a bronze medal in an internal competition showcasing technical skills.
+
+- name: 【Award】 Panasonic Manufacturing Skills Competition - Sequence Control Bronze Award
+  timeline: "July 2013"
+  organization:
+    name: Panasonic Co., Ltd.
+    url: https://holdings.panasonic/global/
+  courseOverview: |
+    Achieved a bronze medal in an internal competition showcasing technical skills.
+
+- name: 【Certification】 Quality Management Certification Second Class
+  timeline: "October 2012"
+  organization:
+    name: Japan Society for Quality Control (JSQC)
+    url: https://webdesk.jsa.or.jp/common/W10K0500/index/qc/qc_qc1/
+  courseOverview: |
+    Demonstrates the ability to independently address and improve many quality-related issues commonly encountered in the workplace by utilizing statistical methods, including the Seven QC Tools and New Seven QC Tools.
+
+- name: 【Completion】 iRVision 2D Correction Basic Course
+  timeline: "September 2012"
+  organization:
+    name: FANUC Corporation
+    url: https://www.fanuc.co.jp/ja/training/course/robot/rsvub.html
+  courseOverview: |
+    Acquired basic knowledge and skills in operating and programming the iRVision built-in vision function for robot controllers.
+
+- name: 【Completion】 Robot Teaching and Operation General Course
+  timeline: "February 2012"
+  organization:
+    name: FANUC Corporation
+    url: https://www.fanuc.co.jp/ja/training/course/robot/rt2.html
+  courseOverview: |
+    Acquired knowledge and skills in robot teaching and operation, focusing on programming methods for material handling.
+
+- name: 【Certification】 Hazardous Materials Handler Cat. 4
+  timeline: "July 2007"
+  organization:
+    name: Fire and Disaster Management Agency, Japan
+  courseOverview: |
+    Certified to safely handle and manage hazardous materials, specifically flammable liquids, in compliance with Japanese safety regulations.
