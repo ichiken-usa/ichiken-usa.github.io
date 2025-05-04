@@ -23,7 +23,7 @@ draft: false
 このページでは、Hugoという静的サイトジェネレーター（SSG）について初心者目線で情報を整理しています。  
 これからHugoを使ってみたい人の参考になれば幸いです。
 
-ちなみにこのサイトは Hugo + toha + GitHub Pages + XSever Domainにより**初年度1円**カスタムドメインで構成されています。
+ちなみにこのサイトは Hugo + toha + GitHub Pages + XSever Domainにより**初年度1円**で公開されています。
 
 ## 静的サイトと動的サイトの違い
 
