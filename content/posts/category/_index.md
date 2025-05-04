@@ -4,5 +4,5 @@ menu:
   sidebar:
     name: Sample
     identifier: category
-    weight: 10
+    weight: 999
 ---

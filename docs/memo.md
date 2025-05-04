@@ -21,3 +21,9 @@
     - 会社間の隙間をbootstrapで調整
     - ポジション間に水平線追加
   - Aboutの自己紹介文を左揃えに修正
+  - Aboutに見出し追加
+  - Experienceの年月がサファリだと電話番号と認識されるため、Month yyyyに変更
+
+## ブログ
+
+- posts構造を整理。全部Sampleにまとめ。
