@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nexa Engineering</title><link>https://nexa-eng.com/</link><description>Recent content on Nexa Engineering</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 04 May 2025 12:50:33 +0900</lastBuildDate><atom:link href="https://nexa-eng.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo入門：静的サイトジェネレータの魅力</title><link>https://nexa-eng.com/posts/hugo/01-basic/01-intro/</link><pubDate>Sun, 04 May 2025 12:50:33 +0900</pubDate><guid>https://nexa-eng.com/posts/hugo/01-basic/01-intro/</guid><description>&lt;p>こんにちは。&lt;a href="https://nexa-eng.com/#about" target="_blank" rel="noopener noreferrer">フリーランスエンジニアの市原&lt;i class="fas fa-link">&lt;/i>&lt;/a>です。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nexa Engineering</title><link>https://nexa-eng.com/</link><description>Recent content on Nexa Engineering</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 04 May 2025 17:00:33 +0900</lastBuildDate><atom:link href="https://nexa-eng.com/index.xml" rel="self" type="application/rss+xml"/><item><title>HugoをWindowsにインストールする手順</title><link>https://nexa-eng.com/posts/hugo/01-basic/02-install-win/</link><pubDate>Sun, 04 May 2025 17:00:33 +0900</pubDate><guid>https://nexa-eng.com/posts/hugo/01-basic/02-install-win/</guid><description>&lt;p>こんにちは。&lt;a href="https://nexa-eng.com/#about">フリーランスエンジニアの市原&lt;i class="fas fa-link">&lt;/i>&lt;/a>です。&lt;/p>
+&lt;p>HugoをWindowsにインストールするのはめちゃくちゃ簡単でしたが、公式はあっさりしているし、いくつか手段があって結局どれやねん！てなるかもしれません。&lt;br>
+ここでは、実際にやってみた手順をざっくりまとめてみます。初心者でも迷わず進められるはずなので、ぜひ試してみてください。&lt;br>
+これからHugoを使ってみたい人の参考になれば幸いです。&lt;/p>
+&lt;p>ちなみにこのサイトは Hugo + toha + GitHub Pages + XSever Domainにより&lt;strong>初年度1円&lt;/strong>で公開されています。&lt;/p>
+&lt;h2 id="やってみたこと">やってみたこと&lt;/h2>
+&lt;ul>
+&lt;li>Windowsにビルド済みバイナリのHugoをインストールする方法&lt;/li>
+&lt;li>Hugo用のフォルダを作る&lt;/li>
+&lt;li>GitHubからHugoの実行ファイルをダウンロード&lt;/li>
+&lt;li>ファイルを解凍して配置&lt;/li>
+&lt;li>コマンドラインでHugoを動かす&lt;/li>
+&lt;li>PATH環境変数を設定して、どこからでもHugoを使えるようにする&lt;/li>
+&lt;/ul>
+&lt;h2 id="手順">手順&lt;/h2>
+&lt;p>&lt;a href="https://gohugo.io/installation/windows/" target="_blank" rel="noopener">公式サイト&lt;i class="fa-solid fa-arrow-up-right-from-square">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>執筆時： v0.147.1&lt;/p>
+&lt;p>ビルド済みのexeを置いてパスを通すだけです。&lt;/p>
+&lt;h3 id="1-フォルダを作る">1. フォルダを作る&lt;/h3>
+&lt;p>まず、Cドライブに「Hugo」というフォルダを作りました。&lt;br>
+その中に「bin」というフォルダも作成。&lt;br>
+この「bin」フォルダにHugoの実行ファイルを入れ流予定です。&lt;/p>
+&lt;h3 id="2-hugoをダウンロード">2. Hugoをダウンロード&lt;/h3>
+&lt;p>次に、&lt;a href="https://github.com/gohugoio/hugo/releases" target="_blank" rel="noopener">HugoのGitHubリリースページ&lt;/a>にアクセス。&lt;br>
+自分のWindowsに合ったバージョンをダウンロードします。&lt;br>
+だいたいwindows-amd64です。&lt;/p>
+&lt;h3 id="3-ファイルを解凍して配置">3. ファイルを解凍して配置&lt;/h3>
+&lt;p>ダウンロードしたZIPファイルを解凍。&lt;br>
+「hugo.exe」を「bin」に移動します。&lt;/p>
+&lt;h3 id="4-コマンドラインでhugoを動かしてみる">4. コマンドラインでHugoを動かしてみる&lt;/h3>
+&lt;p>コマンドプロンプトを開いて、作成した「Hugo/bin」フォルダに移動して以下を実行。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>cd C:&lt;span style="color:#ae81ff">\H&lt;/span>ugo&lt;span style="color:#ae81ff">\b&lt;/span>in
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>hugo version
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>これでHugoのバージョン情報が表示されれば、一旦動作確認はOKです。&lt;/p>
+&lt;h3 id="5-path環境変数を設定">5. PATH環境変数を設定&lt;/h3>
+&lt;p>どのフォルダからでもHugoを使えるようにするために、PATH環境変数を設定します。&lt;/p>
+&lt;ol>
+&lt;li>**「システム環境変数の編集」**を開く（Windowsの検索バーで「環境変数」と入力すると出てきます）。&lt;/li>
+&lt;li>「システム環境変数」の「Path」を選択して編集をクリック。&lt;/li>
+&lt;li>「新規」をクリックして、「C:\Hugo\bin」を追加。&lt;/li>
+&lt;li>保存してウィンドウを閉じます。&lt;/li>
+&lt;/ol>
+&lt;h3 id="6-設定を確認">6. 設定を確認&lt;/h3>
+&lt;p>コマンドプロンプトを再起動して、フォルダ移動せずに以下を実行。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>hugo version
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>どのフォルダからでもHugoのバージョン情報が表示されれば、設定完了👌&lt;/p>
+&lt;h2 id="まとめ">まとめ&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>環境変数の設定は必須&lt;/strong>： PATHに追加すれば、どこからでもHugoを使えるようになる。&lt;/li>
+&lt;li>&lt;strong>確認は&lt;code>hugo version&lt;/code>&lt;/strong>： 使えるか一発でわかる。&lt;/li>
+&lt;/ul>
+&lt;p>これでWindowsにHugoをインストールできました。&lt;br>
+次はHugoを使って実際に静的サイトを作ってみましょう。Hugoの高速さと使いやすさをぜひ体験してみてください！&lt;/p></description></item><item><title>Hugo入門：静的サイトジェネレータの魅力</title><link>https://nexa-eng.com/posts/hugo/01-basic/01-intro/</link><pubDate>Sun, 04 May 2025 12:50:33 +0900</pubDate><guid>https://nexa-eng.com/posts/hugo/01-basic/01-intro/</guid><description>&lt;p>こんにちは。&lt;a href="https://nexa-eng.com/#about">フリーランスエンジニアの市原&lt;i class="fas fa-link">&lt;/i>&lt;/a>です。&lt;/p>
 &lt;p>このページでは、Hugoという静的サイトジェネレーター（SSG）について初心者目線で情報を整理しています。&lt;br>
 これからHugoを使ってみたい人の参考になれば幸いです。&lt;/p>
 &lt;p>ちなみにこのサイトは Hugo + toha + GitHub Pages + XSever Domainにより&lt;strong>初年度1円&lt;/strong>で公開されています。&lt;/p>
