@@ -17,11 +17,13 @@ categories:
 draft: false
 ---
 
-こんにちは。<a href="/#about" target="_blank" rel="noopener noreferrer">フリーランスエンジニアの市原<i class="fas fa-link"></i></a>です。  
-このサイトは Hugo + toha + GitHub Pages + XSever Domainにより**初年度1円**カスタムドメインで構成されています。
 
-Hugoという静的サイトジェネレーター（SSG）でホームページを構築してみて得たものを初心者目線で整理してみます。  
+こんにちは。<a href="/#about" target="_blank" rel="noopener noreferrer">フリーランスエンジニアの市原<i class="fas fa-link"></i></a>です。  
+
+このページでは、Hugoという静的サイトジェネレーター（SSG）について初心者目線で情報を整理しています。  
 これからHugoを使ってみたい人の参考になれば幸いです。
+
+ちなみにこのサイトは Hugo + toha + GitHub Pages + XSever Domainにより**初年度1円**カスタムドメインで構成されています。
 
 ## 静的サイトと動的サイトの違い
 
