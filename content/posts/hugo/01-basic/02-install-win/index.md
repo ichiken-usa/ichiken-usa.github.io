@@ -7,7 +7,7 @@ menu:
     name: Winインストール
     identifier: hugo-install-win
     parent: hugo-basic
-    weight: 10
+    weight: 20
 hero: images/hugo.png
 tags:
 - Hugo
@@ -28,32 +28,31 @@ HugoをWindowsにインストールするのはめちゃくちゃ簡単でした
 
 ## やってみたこと
 
-- Windowsにビルド済みバイナリのHugoをインストールする方法
-- Hugo用のフォルダを作る
-- GitHubからHugoの実行ファイルをダウンロード
-- ファイルを解凍して配置
-- コマンドラインでHugoを動かす
+- Windowsにビルド済みバイナリのHugoを配置
 - PATH環境変数を設定して、どこからでもHugoを使えるようにする
+- のちのち必要になるGoとNode.jsも入れる
 
-## 手順
+## Hugoインストール手順
 
-[公式サイト<i class="fa-solid fa-arrow-up-right-from-square"></i>](https://gohugo.io/installation/windows/)
+[Hugo公式インストールガイド <i class="fa-solid fa-arrow-up-right-from-square"></i>](https://gohugo.io/installation/windows/)
 
-執筆時： v0.147.1
-
-ビルド済みのexeを置いてパスを通すだけです。
+インストーラではなく、ビルド済みのexeを置いてパスを通すスタイルです。  
+公式手順より詳細に記載しておきます。
 
 ### 1. フォルダを作る
 
-まず、Cドライブに「Hugo」というフォルダを作りました。  
+まず、Cドライブに「Hugo」というフォルダを作成。  
 その中に「bin」というフォルダも作成。  
 この「bin」フォルダにHugoの実行ファイルを入れ流予定です。
+
+`C:\Hugo\bin\`
 
 ### 2. Hugoをダウンロード
 
 次に、[HugoのGitHubリリースページ](https://github.com/gohugoio/hugo/releases)にアクセス。  
 自分のWindowsに合ったバージョンをダウンロードします。  
-だいたいwindows-amd64です。
+だいたいwindows-amd64です。  
+私みたいにMシリーズのMacの仮想環境でWindowsを使ったりするとarmだったりします。
 
 ### 3. ファイルを解凍して配置
 
@@ -75,10 +74,10 @@ hugo version
 
 どのフォルダからでもHugoを使えるようにするために、PATH環境変数を設定します。
 
-1. **「システム環境変数の編集」**を開く（Windowsの検索バーで「環境変数」と入力すると出てきます）。
+1. 「システム環境変数の編集」を開く（Windowsの検索バーで「環境変数」と入力すると出る）。
 2. 「システム環境変数」の「Path」を選択して編集をクリック。
 3. 「新規」をクリックして、「C:\Hugo\bin」を追加。
-4. 保存してウィンドウを閉じます。
+4. 「保存」して完了。
 
 ### 6. 設定を確認
 
@@ -90,14 +89,75 @@ hugo version
 
 どのフォルダからでもHugoのバージョン情報が表示されれば、設定完了👌
 
+以下のように、現在のブログ構成にGoとNode.jsのインストール手順を追加しました。Hugoの手順と同じトーンで記載しています。
+
+## GoとNode.jsのインストール手順
+
+Hugoを使う際に、テーマのローカル確認やビルドでGoとNode.jsが必要になる場合があります。  
+ついでなので、WindowsにGoとNode.jsをインストールしてしまいましょう。どちらもインストーラでポチポチで終わりです。
+
+### 1. Goをインストール
+
+まず、Goをインストールします。
+
+1. **Go公式サイトにアクセス**  
+   [Go公式ダウンロードページ  <i class="fa-solid fa-arrow-up-right-from-square"></i>](https://go.dev/dl/)にアクセスします。
+
+2. **Windows用インストーラーをダウンロード**  
+   自分のWindows環境（通常は`windows-amd64.msi`）に合った最新版インストーラーを選択してダウンロードします。
+
+3. **インストーラーを実行**  
+   ダウンロードしたインストーラーをダブルクリックして実行します。  
+   セットアップウィザードに従い、インストールを完了させます（デフォルト設定でOK）。
+
+4. **インストール確認**  
+   コマンドプロンプトを開いて以下を実行します。
+
+   ```bash
+   go version
+   ```
+
+   Goのバージョン情報が表示されればインストール成功です。
+
+### 2. Node.jsをインストール
+
+次に、Node.jsをインストールします。
+
+1. **Node.js公式サイトにアクセス**  
+   [Node.js公式ダウンロードページ  <i class="fa-solid fa-arrow-up-right-from-square"></i>](https://nodejs.org/)にアクセスします。
+
+2. **LTS版をダウンロード**  
+   安定版（LTS: Long Term Support）を選択してダウンロードします。
+
+3. **インストーラーを実行**  
+   ダウンロードしたインストーラーをダブルクリックして実行します。  
+   セットアップウィザードに従い、インストールを完了させます（デフォルト設定でOK）。
+
+4. **インストール確認**  
+   コマンドプロンプトを開いて以下を実行します。
+
+   ```bash
+   node -v
+   npm -v
+   ```
+
+   - `node -v`でNode.jsのバージョンが表示されれば成功。
+   - `npm -v`でnpm（Node.jsのパッケージマネージャー）のバージョンが表示されれば成功。
+
+これでGoとNode.jsのインストールが完了！  
+
 ## まとめ
 
 - **環境変数の設定は必須**： PATHに追加すれば、どこからでもHugoを使えるようになる。
-- **確認は`hugo version`**： 使えるか一発でわかる。
+- **Hugoの確認コマンド**： `hugo version`
+- **Goの確認コマンド**: `go version`
+- **Node.jsの確認コマンド**: `node -v`
+- **npmの確認コマンド**: `npm -v`
 
-これでWindowsにHugoをインストールできました。  
+これでWindowsにHugo、Go、Node.jsをインストールできました。  
 次はHugoを使って実際に静的サイトを作ってみましょう。Hugoの高速さと使いやすさをぜひ体験してみてください！
 
 ## 関連リンク
 
-[https://gohugo.io/installation/windows/](https://gohugo.io/installation/windows/)
+[Hugo公式インストールガイド <i class="fa-solid fa-arrow-up-right-from-square"></i>](https://gohugo.io/installation/windows/)
+[Go公式サイト <i class="fa-solid fa-arrow-up-right-from-square"></i>](https://go.dev)

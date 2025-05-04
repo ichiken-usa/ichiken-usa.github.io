@@ -1,8 +1,8 @@
 ---
-title: Hugoの基本
+title: Hugo導入
 menu:
   sidebar:
-    name: Hugoの基本
+    name: Hugo導入
     identifier: hugo-basic
     parent: hugo
     weight: 10

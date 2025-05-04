@@ -7,7 +7,7 @@ copyright: |
 disclaimer: "This site uses the hugo-toha theme under the MIT license. See LICENSE for details."
 
 # Meta Description for SEO
-description: Portfolio and personal blog of Kentaro Ichihara at Nexa Engineering.
+description: Portfolio of Software Development and personal blog of Kentaro Ichihara at Nexa Engineering.
 
 # Custom Menus for Navigation
 customMenus:
@@ -33,6 +33,6 @@ customMenus:
 openGraph:
   title: Nexa Engineering
   type: website
-  description: Portfolio and personal blog of Kentaro Ichihara at Nexa Engineering.
+  description: Portfolio of Software Development and personal blog of Kentaro Ichihara at Nexa Engineering.
   image: images/author/ken.png
   url: https://nexa-eng.com

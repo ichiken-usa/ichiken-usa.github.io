@@ -96,6 +96,7 @@ Hugoは、静的サイトを効率的に作成するための強力なツール�
 とりあえずやってみようかなという人は、Hugoのインストールへ進んでください。
 
 [HugoをWindowsへインストールする手順 <i class="fa-solid fa-link"></i>](/posts/hugo/01-basic/02-install-win)
+[HugoをMacへインストールする手順 <i class="fa-solid fa-link"></i>](/posts/hugo/01-basic/03-install-mac)
 
 ## 関連リンク
 
