@@ -100,6 +100,7 @@ Goのバージョン情報が表示されればインストール成功。
 ## まとめ
 
 - **Homebrewは便利**: Macでソフトウェアをインストールするならこれ一択。
+- **インストールコマンド**: `brew install hugo go node`
 - **Hugoの確認コマンド**： `hugo version`
 - **Goの確認コマンド**: `go version`
 - **Node.jsの確認コマンド**: `node -v`
