@@ -161,3 +161,4 @@ Hugoを使う際に、テーマのローカル確認やビルドでGoとNode.js�
 
 [Hugo公式インストールガイド <i class="fa-solid fa-arrow-up-right-from-square"></i>](https://gohugo.io/installation/windows/)
 [Go公式サイト <i class="fa-solid fa-arrow-up-right-from-square"></i>](https://go.dev)
+[Node.js公式ダウンロードページ  <i class="fa-solid fa-arrow-up-right-from-square"></i>](https://nodejs.org/)
