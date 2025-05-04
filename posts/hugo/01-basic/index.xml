@@ -43,6 +43,7 @@ MacにHomebrewが入っていない場合は、Macで絶対に外せないパッ
 &lt;h2 id="まとめ">まとめ&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>Homebrewは便利&lt;/strong>: Macでソフトウェアをインストールするならこれ一択。&lt;/li>
+&lt;li>&lt;strong>インストールコマンド&lt;/strong>: &lt;code>brew install hugo go node&lt;/code>&lt;/li>
 &lt;li>&lt;strong>Hugoの確認コマンド&lt;/strong>： &lt;code>hugo version&lt;/code>&lt;/li>
 &lt;li>&lt;strong>Goの確認コマンド&lt;/strong>: &lt;code>go version&lt;/code>&lt;/li>
 &lt;li>&lt;strong>Node.jsの確認コマンド&lt;/strong>: &lt;code>node -v&lt;/code>&lt;/li>
