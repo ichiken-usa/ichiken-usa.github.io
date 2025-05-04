@@ -2,7 +2,7 @@
 title: Top Category Sample
 menu:
   sidebar:
-    name: Category
+    name: Sample
     identifier: category
-    weight: 20
+    weight: 10
 ---
