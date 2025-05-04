@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Nexa Engineering</title><link>https://nexa-eng.com/tags/blog/</link><description>Recent content in Blog on Nexa Engineering</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 04 May 2025 12:50:33 +0900</lastBuildDate><atom:link href="https://nexa-eng.com/tags/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo入門：静的サイトジェネレータの魅力</title><link>https://nexa-eng.com/posts/hugo/01-basic/01-intro/</link><pubDate>Sun, 04 May 2025 12:50:33 +0900</pubDate><guid>https://nexa-eng.com/posts/hugo/01-basic/01-intro/</guid><description>&lt;p>こんにちは。&lt;a href="https://nexa-eng.com/#about" target="_blank" rel="noopener noreferrer">フリーランスエンジニアの市原&lt;i class="fas fa-link">&lt;/i>&lt;/a>です。&lt;br>
+このサイトは Hugo + toha + GitHub Pages + XSever Domainにより&lt;strong>初年度1円&lt;/strong>カスタムドメインで構成されています。&lt;/p>
+&lt;p>Hugoという静的サイトジェネレーター（SSG）でホームページを構築してみて得たものを初心者目線で整理してみます。&lt;br>
+これからHugoを使ってみたい人の参考になれば幸いです。&lt;/p>
+&lt;h2 id="静的サイトと動的サイトの違い">静的サイトと動的サイトの違い&lt;/h2>
+&lt;p>まず、静的サイトと動的サイトの違いを簡単に説明します。&lt;/p>
+&lt;h3 id="静的サイトとは">静的サイトとは？&lt;/h3>
+&lt;p>静的サイトは、HTMLファイルをそのままサーバーに置いて配信するシンプルな仕組みです。&lt;br>
+例えば、個人ブログやポートフォリオサイトなんかに向いています。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>メリット&lt;/strong>: 高速、セキュア、ホスティングが安い&lt;/li>
+&lt;li>&lt;strong>デメリット&lt;/strong>: 動的な機能（ログインやコメント機能など）が難しい&lt;/li>
+&lt;/ul>
+&lt;h3 id="動的サイトとは">動的サイトとは？&lt;/h3>
+&lt;p>一方、動的サイトは、ユーザーごとに異なるコンテンツを生成する仕組みです。&lt;br>
+例えば、FacebookやAmazonのようなサイトがこれに当たります。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>メリット&lt;/strong>: 柔軟でカスタマイズ性が高い&lt;/li>
+&lt;li>&lt;strong>デメリット&lt;/strong>: サーバーリソースが必要で、管理が複雑&lt;/li>
+&lt;/ul>
+&lt;p>ログインで人によってコンテンツを変えたいとかなら別ですが、普通の個人ブログなら静的サイトで十分だと思います。
+Hugoだと問い合わせフォームからメールを送るのが難しかったりしますが、これはGoogle Formsを埋め込んだりで代用できます。&lt;/p>
+&lt;h2 id="hugoの特徴">Hugoの特徴&lt;/h2>
+&lt;p>Hugoは静的サイトジェネレーターの中でも人気のあるツールの一つです。&lt;br>
+以下の点が魅力的だと感じました。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>超高速&lt;/strong>: Go言語で作られていて、ビルドがめちゃくちゃ速く自称世界最速。お作法に従ったファイル配置にすれば構造を勝手に解析してページやタグやリンクを作ってくれて超ラク。&lt;/li>
+&lt;li>&lt;strong>Markdown対応&lt;/strong>: 記事はマークダウンで書けるので、普段資料等をマークダウンで作っている私にピッタリ。ローカルHugoサーバを立ち上げれば、書きながらホットリロードで即確認できます。&lt;/li>
+&lt;li>&lt;strong>無料でオープンソース&lt;/strong>: 豊富なテーマが揃っていて、カスタマイズもお作法さえわかれば結構簡単。&lt;/li>
+&lt;li>&lt;strong>柔軟性&lt;/strong>: テンプレートやレイアウトの自由度が高い。&lt;/li>
+&lt;/ul>
+&lt;h2 id="他のcmsとの比較">他のCMSとの比較&lt;/h2>
+&lt;p>WordPressなどと比較して、Hugoには以下のようなメリットがあります。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>パフォーマンス&lt;/strong>: 静的サイトなので、ページの読み込みが速い。&lt;/li>
+&lt;li>&lt;strong>セキュリティ&lt;/strong>: データベースを使わないので、ハッキングリスクが低い。&lt;/li>
+&lt;li>&lt;strong>コスト&lt;/strong>: 無料で使える。GitHub Pagesとの組み合わせで0円運用可能。GitHub Pagesはカスタムドメインも対応可能。XServer Domainなら初年度1円でGoogleアドセンス可能。&lt;/li>
+&lt;/ul>
+&lt;h2 id="他の選択肢まとめ">他の選択肢まとめ&lt;/h2>
+&lt;p>その他の静的サイトジェネレータの選択肢を(GPTさんが)整理しました。&lt;br>
+ざっくり上から人気順です。そもそもマークダウンで書いたろ！って人が少ないんでしょうね。。。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">名前&lt;/th>
+&lt;th style="text-align: left">特徴&lt;/th>
+&lt;th style="text-align: left">公式サイト&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">&lt;strong>Next.js&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">Reactベースのフレームワークで、静的サイトと動的サイトの両方を構築可能。SSRやSSGをサポートし、高度な機能が豊富。&lt;br>&lt;strong>評価&lt;/strong>: Reactエコシステムの中心的存在で、最新技術を活用可能。&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://nextjs.org/" target="_blank" rel="noopener">https://nextjs.org/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;strong>Gatsby&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">Reactベースの静的サイトジェネレータで、GraphQLを使用して柔軟なデータ管理が可能。プラグインエコシステムが充実し、SEOに強い。&lt;br>&lt;strong>評価&lt;/strong>: Reactユーザーに支持され、SEOやパフォーマンスに特化。&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://www.gatsbyjs.com/" target="_blank" rel="noopener">https://www.gatsbyjs.com/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;strong>Hugo&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">Go言語で構築された静的サイトジェネレータで、超高速なビルド速度を誇る。Markdown対応で簡単にコンテンツ作成が可能。&lt;br>&lt;strong>評価&lt;/strong>: 高速性と柔軟性が評価され、初心者から上級者まで幅広く支持されている。&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://gohugo.io/" target="_blank" rel="noopener">https://gohugo.io/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;strong>Jekyll&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">Rubyで構築された静的サイトジェネレータ。GitHub Pagesと統合され無料ホスティング可能。プラグインやテーマが豊富でカスタマイズ性が高い。&lt;br>&lt;strong>評価&lt;/strong>: 長年の実績とGitHub Pagesとの親和性が高い。&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://jekyllrb.com/" target="_blank" rel="noopener">https://jekyllrb.com/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;strong>Nuxt.js&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">Vue.jsベースのフレームワークで、SSGとSSRをサポート。プラグインやモジュールが豊富で柔軟な開発が可能。&lt;br>&lt;strong>評価&lt;/strong>: Vue.jsユーザーにとって最適な選択肢として支持されている。&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://nuxtjs.org/" target="_blank" rel="noopener">https://nuxtjs.org/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;strong>Eleventy&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">JavaScriptで構築された軽量な静的サイトジェネレータで、シンプルで柔軟性が高く、高速。初心者にも扱いやすい。&lt;br>&lt;strong>評価&lt;/strong>: 軽量でシンプルな構成が好まれ、JavaScriptユーザーに人気。&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://www.11ty.dev/" target="_blank" rel="noopener">https://www.11ty.dev/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;strong>Hexo&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">Node.jsベースの静的サイトジェネレータで、高速でMarkdownを使用して簡単にコンテンツ作成可能。ブログ向けに最適化。&lt;br>&lt;strong>評価&lt;/strong>: ブログ用途に特化し、Node.jsユーザーに支持されている。&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://hexo.io/" target="_blank" rel="noopener">https://hexo.io/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;strong>Docusaurus&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">Facebookが開発した静的サイトジェネレータで、ドキュメントサイトやブログの作成に特化。Reactベースでカスタマイズ性が高い。&lt;br>&lt;strong>評価&lt;/strong>: Facebook製で信頼性が高く、Reactユーザーに支持されている。&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://docusaurus.io/" target="_blank" rel="noopener">https://docusaurus.io/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;strong>MkDocs&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">Pythonで構築され、ドキュメントサイトの作成に特化。Markdownを使用して簡単にドキュメント作成可能。&lt;br>&lt;strong>評価&lt;/strong>: 技術ドキュメント作成に特化し、Pythonユーザーに支持されている。&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://www.mkdocs.org/" target="_blank" rel="noopener">https://www.mkdocs.org/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;strong>Zola&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">Rustで構築された静的サイトジェネレータで、シンプルで高速、設定が簡単。デフォルトで多言語対応をサポート。&lt;br>&lt;strong>評価&lt;/strong>: Rustユーザーに注目され、高速性が評価されている。&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://www.getzola.org/" target="_blank" rel="noopener">https://www.getzola.org/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;strong>Pelican&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">Pythonで構築された静的サイトジェネレータで、MarkdownやreStructuredTextをサポート。シンプルでPythonユーザーに最適。&lt;br>&lt;strong>評価&lt;/strong>: Pythonユーザーに特化したツールとして利用されている。&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://getpelican.com" target="_blank" rel="noopener">https://getpelican.com&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>マークダウン対応、テンプレートがあってカスタム可能、運用コストが低い、それなりの人気とコミュニティ継続、&lt;br>
+これらを満たすのがHugoでした。テーマ選びをミスらなければ、数分でテストページ公開できるし、ブログにも超使いやすいです。（紹介の多いテーマの後継HugoBlox/theme-academic-cvは構造がややこしすぎるし更新止まっているのでやめとけ）&lt;/p></description></item></channel></rss>
