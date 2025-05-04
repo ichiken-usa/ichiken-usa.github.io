@@ -31,30 +31,34 @@
 構成案
 
 1. Hugoの基本
-  01.md: Hugo入門: 静的サイトジェネレーターの魅力
-  02.md: Hugo インストール手順（Windows向け）
-  03.md: Hugo インストール手順（Macintosh向け）
-  04.md: Hugo サイト作成手順とフォルダ構成の概要
+  01.md: Hugo入門: 静的サイトジェネレーターの魅力 (hugo-introduction)
+  02.md: Hugo インストール手順（Windows向け） (hugo-install-windows)
+  03.md: Hugo インストール手順（Macintosh向け） (hugo-install-mac)
+  04.md: Hugo サイト作成手順とフォルダ構成の概要 (hugo-site-setup)
+
 2. コンテンツ管理
-  05.md: Hugo テーマの導入と設定方法
-  06.md: Hugo のコンテンツ管理とカスタムリストページの作成
-  07.md: Hugo のフロントマターの概要と活用方法
-  08.md: Hugo のアーキタイプの概要と活用方法
+  05.md: Hugo テーマの導入と設定方法 (hugo-theme-setup)
+  06.md: Hugo のコンテンツ管理とカスタムリストページの作成 (hugo-content-management)
+  07.md: Hugo のフロントマターの概要と活用方法 (hugo-front-matter)
+  08.md: Hugo のアーキタイプの概要と活用方法 (hugo-archetypes)
+
 3. テンプレートとレイアウト
-  09.md: Hugo テンプレートの基本
-  10.md: タクソノミーの活用方法
-  11.md: テンプレートの基本と活用方法
-  12.md: リストテンプレートの活用方法
-  13.md: シングルテンプレートの活用方法
-  14.md: ホームページテンプレートの作成と活用方法
-  15.md: セクションテンプレートの活用方法
-  16.md: Baseテンプレートとブロックの活用方法
+  09.md: Hugo テンプレートの基本 (hugo-templates-basics)
+  10.md: タクソノミーの活用方法 (hugo-taxonomies)
+  11.md: テンプレートの基本と活用方法 (hugo-templates-usage)
+  12.md: リストテンプレートの活用方法 (hugo-list-templates)
+  13.md: シングルテンプレートの活用方法 (hugo-single-templates)
+  14.md: ホームページテンプレートの作成と活用方法 (hugo-homepage-templates)
+  15.md: セクションテンプレートの活用方法 (hugo-section-templates)
+  16.md: Baseテンプレートとブロックの活用方法 (hugo-base-block-templates)
+
 4. 高度な機能
-  17.md: 変数の基本と活用方法
-  18.md: 条件ロジックの活用方法
-  19.md: 条件分岐の基本と活用方法
-  20.md: データフォルダの活用方法
-  21.md: パーシャルテンプレートの活用方法
-  22.md: ショートコードテンプレートの活用方法
+  17.md: 変数の基本と活用方法 (hugo-variables)
+  18.md: 条件ロジックの活用方法 (hugo-conditional-logic)
+  19.md: 条件分岐の基本と活用方法 (hugo-conditional-branches)
+  20.md: データフォルダの活用方法 (hugo-data-folder)
+  21.md: パーシャルテンプレートの活用方法 (hugo-partial-templates)
+  22.md: ショートコードテンプレートの活用方法 (hugo-shortcodes)
+
 5. デプロイと最適化
-  23.md: サイトのビルドとホスティング方法
+  23.md: サイトのビルドとホスティング方法 (hugo-deploy-hosting)

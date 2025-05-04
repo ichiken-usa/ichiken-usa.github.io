@@ -1,39 +1,35 @@
-# Copyright Notice
+# Copyright Information
 copyright: |
   © 2020 hugo-toha (Theme)  
   © 2025 Nexa Engineering (Content)
-# A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
+
+# Footer Disclaimer
 disclaimer: "This site uses the hugo-toha theme under the MIT license. See LICENSE for details."
 
-# Meta description for your site.  This will help the search engines to find your site.
+# Meta Description for SEO
 description: Portfolio and personal blog of Kentaro Ichihara at Nexa Engineering.
 
-# specify the list of custom menus that you want to show in the top navbar.
-# they will be separated by a divider from the main menus.
+# Custom Menus for Navigation
 customMenus:
-#- name: Theme Docs
-#  url: https://toha-guides.netlify.app/posts/
-  # specify whether to hide the menu item from top navbar or not.
-#  hideFromNavbar: false
-  # specify whether to show the menu item in footer or not.
-  # if you set it to true, make sure you have set `footer.navigation.customMenus: true` in your config.yaml
-#  showOnFooter: false
-- name: Posts
-  url: posts/
-  hideFromNavbar: true
-  showOnFooter: true
+  # Posts menu (hidden from navbar, shown in footer)
+  - name: Posts
+    url: posts/
+    hideFromNavbar: true
+    showOnFooter: true
 
-- name: Privacy Policy
-  url: privacy-policy/
-  hideFromNavbar: false
-  showOnFooter: true
+  # Privacy Policy menu
+  - name: Privacy Policy
+    url: privacy-policy/
+    hideFromNavbar: false
+    showOnFooter: true
 
-- name: Contact
-  url: contact/
-  hideFromNavbar: false
-  showOnFooter: true
+  # Contact menu
+  - name: Contact
+    url: contact/
+    hideFromNavbar: false
+    showOnFooter: true
 
-# Specify OpenGraph Headers
+# OpenGraph Metadata
 openGraph:
   title: Nexa Engineering
   type: website

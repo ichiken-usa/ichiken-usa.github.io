@@ -5,8 +5,8 @@ description: 最近、Hugoという静的サイトジェネレーターでホー
 menu:
   sidebar:
     name: SSGの魅力
-    identifier: intro
-    parent: basic
+    identifier: hugo-intro
+    parent: hugo-basic
     weight: 10
 hero: images/hugo.png
 tags:
@@ -18,7 +18,7 @@ draft: false
 ---
 
 
-こんにちは。<a href="/#about" target="_blank" rel="noopener noreferrer">フリーランスエンジニアの市原<i class="fas fa-link"></i></a>です。  
+こんにちは。[フリーランスエンジニアの市原<i class="fas fa-link"></i>](/#about)です。  
 
 このページでは、Hugoという静的サイトジェネレーター（SSG）について初心者目線で情報を整理しています。  
 これからHugoを使ってみたい人の参考になれば幸いです。
@@ -93,7 +93,11 @@ WordPressなどと比較して、Hugoには以下のようなメリットがあ�
 Hugoは、静的サイトを効率的に作成するための強力なツールです。  
 自分で個人ブログやポートフォリオサイトを作って見た限りではおすすめです。これからHugoを使ってみたい人の参考になれば幸いです！
 
+とりあえずやってみようかなという人は、Hugoのインストールへ進んでください。
+
+[HugoをWindowsへインストールする手順 <i class="fa-solid fa-link"></i>](/posts/hugo/01-basic/02-install-win)
+
 ## 関連リンク
 
-[https://gohugo.io/about/introduction](https://gohugo.io/about/introduction)  
-[https://github.com/hugo-toha/toha](https://github.com/hugo-toha/toha)
+[https://gohugo.io/about/introduction <i class="fa-solid fa-arrow-up-right-from-square"></i>](https://gohugo.io/about/introduction)  
+[https://github.com/hugo-toha/toha <i class="fa-solid fa-arrow-up-right-from-square"></i>](https://github.com/hugo-toha/toha)
