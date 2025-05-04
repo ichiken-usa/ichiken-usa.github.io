@@ -1,29 +1,79 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on Nexa Engineering</title><link>https://nexa-eng.com/tags/hugo/</link><description>Recent content in Hugo on Nexa Engineering</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 04 May 2025 17:00:33 +0900</lastBuildDate><atom:link href="https://nexa-eng.com/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>HugoをWindowsにインストールする手順</title><link>https://nexa-eng.com/posts/hugo/01-basic/02-install-win/</link><pubDate>Sun, 04 May 2025 17:00:33 +0900</pubDate><guid>https://nexa-eng.com/posts/hugo/01-basic/02-install-win/</guid><description>&lt;p>こんにちは。&lt;a href="https://nexa-eng.com/#about">フリーランスエンジニアの市原&lt;i class="fas fa-link">&lt;/i>&lt;/a>です。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on Nexa Engineering</title><link>https://nexa-eng.com/tags/hugo/</link><description>Recent content in Hugo on Nexa Engineering</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 04 May 2025 18:10:00 +0900</lastBuildDate><atom:link href="https://nexa-eng.com/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>HugoをMacにインストールする手順</title><link>https://nexa-eng.com/posts/hugo/01-basic/03-install-mac/</link><pubDate>Sun, 04 May 2025 18:10:00 +0900</pubDate><guid>https://nexa-eng.com/posts/hugo/01-basic/03-install-mac/</guid><description>&lt;p>こんにちは。&lt;a href="https://nexa-eng.com/#about">フリーランスエンジニアの市原&lt;i class="fas fa-link">&lt;/i>&lt;/a>です。&lt;/p>
+&lt;p>HugoとGoとNode.jsをMacにインストールする手順を記載します。&lt;br>
+本題前にコマンドを書いておきます。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>brew install hugo go node
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>以上です。&lt;/p>
+&lt;p>ちなみにこのサイトは Hugo + toha + GitHub Pages + XSever Domainにより&lt;strong>初年度1円&lt;/strong>で公開されています。&lt;/p>
+&lt;h2 id="やってみたこと">やってみたこと&lt;/h2>
+&lt;ul>
+&lt;li>Homebrewを使ったソフトウェアのインストール(まだなら)&lt;/li>
+&lt;li>ターミナルでHugoをインストールするコマンド&lt;/li>
+&lt;li>Hugoのインストール確認方法&lt;/li>
+&lt;/ul>
+&lt;h2 id="手順">手順&lt;/h2>
+&lt;p>&lt;a href="https://gohugo.io/installation/macos/" target="_blank" rel="noopener">Hugo公式インストールガイド &lt;i class="fa-solid fa-arrow-up-right-from-square">&lt;/i>&lt;/a>&lt;/p>
+&lt;h3 id="1-homebrewをインストール">1. Homebrewをインストール&lt;/h3>
+&lt;p>すでにインストール済みの場合はこのステップをスキップしてOKです。&lt;br>
+MacにHomebrewが入っていない場合は、Macで絶対に外せないパッケージ管理&lt;a href="https://brew.sh/" target="_blank" rel="noopener">Homebrewの公式サイト&lt;i class="fa-solid fa-arrow-up-right-from-square">&lt;/i>&lt;/a>にアクセスします。&lt;br>
+表示されているインストールコマンドをコピーして、ターミナルに貼り付けて実行します。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>/bin/bash -c &lt;span style="color:#e6db74">&amp;#34;&lt;/span>&lt;span style="color:#66d9ef">$(&lt;/span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh&lt;span style="color:#66d9ef">)&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>これでHomebrewがインストールされます。&lt;/p>
+&lt;h3 id="2-hugoをインストール">2. Hugoをインストール&lt;/h3>
+&lt;p>Homebrewが使えるようになったら、以下のコマンドをターミナルで実行してHugoをインストールします。&lt;br>
+ついでなのでテーマをローカルで確認するのにGoとNode.jsが必要になるのでついでに入れておきましょう。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>brew install hugo go node
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>以上！&lt;/p>
+&lt;p>なお拡張版というのがあり、テーマによってはこちらが必要になるケースがあるようです。
+試しに入れてみましたが、どちらにせよコマンド一発です。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>CGO_ENABLED&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span> go install -tags extended github.com/gohugoio/hugo@latest
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="3-インストールを確認">3. インストールを確認&lt;/h3>
+&lt;p>Hugoがちゃんとインストールされたか確認するには、以下のコマンドを実行します。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>hugo version
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>このコマンドを実行してHugoのバージョン情報が表示されればOKです。&lt;br>
+ちなみに、&lt;code>which hugo&lt;/code>コマンドを使うとHugoのインストール場所も確認できます。&lt;/p>
+&lt;p>GoとNode.jsの確認もしておきましょう。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>go version
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Goのバージョン情報が表示されればインストール成功。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span> node -v
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> npm -v
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;code>node -v&lt;/code>でNode.jsのバージョンが表示されれば成功。&lt;/li>
+&lt;li>&lt;code>npm -v&lt;/code>でnpm（Node.jsのパッケージマネージャー）のバージョンが表示されれば成功。&lt;/li>
+&lt;/ul>
+&lt;h2 id="まとめ">まとめ&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Homebrewは便利&lt;/strong>: Macでソフトウェアをインストールするならこれ一択。&lt;/li>
+&lt;li>&lt;strong>Hugoの確認コマンド&lt;/strong>： &lt;code>hugo version&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Goの確認コマンド&lt;/strong>: &lt;code>go version&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Node.jsの確認コマンド&lt;/strong>: &lt;code>node -v&lt;/code>&lt;/li>
+&lt;li>&lt;strong>npmの確認コマンド&lt;/strong>: &lt;code>npm -v&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;p>これでMacにHugoをインストールできました。&lt;br>
+次はHugoを使って実際に静的サイトを作ってみましょう。Hugoの高速さと使いやすさをぜひ体験してみてください！&lt;/p></description></item><item><title>HugoをWindowsにインストールする手順</title><link>https://nexa-eng.com/posts/hugo/01-basic/02-install-win/</link><pubDate>Sun, 04 May 2025 17:00:33 +0900</pubDate><guid>https://nexa-eng.com/posts/hugo/01-basic/02-install-win/</guid><description>&lt;p>こんにちは。&lt;a href="https://nexa-eng.com/#about">フリーランスエンジニアの市原&lt;i class="fas fa-link">&lt;/i>&lt;/a>です。&lt;/p>
 &lt;p>HugoをWindowsにインストールするのはめちゃくちゃ簡単でしたが、公式はあっさりしているし、いくつか手段があって結局どれやねん！てなるかもしれません。&lt;br>
 ここでは、実際にやってみた手順をざっくりまとめてみます。初心者でも迷わず進められるはずなので、ぜひ試してみてください。&lt;br>
 これからHugoを使ってみたい人の参考になれば幸いです。&lt;/p>
 &lt;p>ちなみにこのサイトは Hugo + toha + GitHub Pages + XSever Domainにより&lt;strong>初年度1円&lt;/strong>で公開されています。&lt;/p>
 &lt;h2 id="やってみたこと">やってみたこと&lt;/h2>
 &lt;ul>
-&lt;li>Windowsにビルド済みバイナリのHugoをインストールする方法&lt;/li>
-&lt;li>Hugo用のフォルダを作る&lt;/li>
-&lt;li>GitHubからHugoの実行ファイルをダウンロード&lt;/li>
-&lt;li>ファイルを解凍して配置&lt;/li>
-&lt;li>コマンドラインでHugoを動かす&lt;/li>
+&lt;li>Windowsにビルド済みバイナリのHugoを配置&lt;/li>
 &lt;li>PATH環境変数を設定して、どこからでもHugoを使えるようにする&lt;/li>
+&lt;li>のちのち必要になるGoとNode.jsも入れる&lt;/li>
 &lt;/ul>
-&lt;h2 id="手順">手順&lt;/h2>
-&lt;p>&lt;a href="https://gohugo.io/installation/windows/" target="_blank" rel="noopener">公式サイト&lt;i class="fa-solid fa-arrow-up-right-from-square">&lt;/i>&lt;/a>&lt;/p>
-&lt;p>執筆時： v0.147.1&lt;/p>
-&lt;p>ビルド済みのexeを置いてパスを通すだけです。&lt;/p>
+&lt;h2 id="hugoインストール手順">Hugoインストール手順&lt;/h2>
+&lt;p>&lt;a href="https://gohugo.io/installation/windows/" target="_blank" rel="noopener">Hugo公式インストールガイド &lt;i class="fa-solid fa-arrow-up-right-from-square">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>インストーラではなく、ビルド済みのexeを置いてパスを通すスタイルです。&lt;br>
+公式手順より詳細に記載しておきます。&lt;/p>
 &lt;h3 id="1-フォルダを作る">1. フォルダを作る&lt;/h3>
-&lt;p>まず、Cドライブに「Hugo」というフォルダを作りました。&lt;br>
+&lt;p>まず、Cドライブに「Hugo」というフォルダを作成。&lt;br>
 その中に「bin」というフォルダも作成。&lt;br>
 この「bin」フォルダにHugoの実行ファイルを入れ流予定です。&lt;/p>
+&lt;p>&lt;code>C:\Hugo\bin\&lt;/code>&lt;/p>
 &lt;h3 id="2-hugoをダウンロード">2. Hugoをダウンロード&lt;/h3>
 &lt;p>次に、&lt;a href="https://github.com/gohugoio/hugo/releases" target="_blank" rel="noopener">HugoのGitHubリリースページ&lt;/a>にアクセス。&lt;br>
 自分のWindowsに合ったバージョンをダウンロードします。&lt;br>
-だいたいwindows-amd64です。&lt;/p>
+だいたいwindows-amd64です。&lt;br>
+私みたいにMシリーズのMacの仮想環境でWindowsを使ったりするとarmだったりします。&lt;/p>
 &lt;h3 id="3-ファイルを解凍して配置">3. ファイルを解凍して配置&lt;/h3>
 &lt;p>ダウンロードしたZIPファイルを解凍。&lt;br>
 「hugo.exe」を「bin」に移動します。&lt;/p>
@@ -35,22 +85,25 @@
 &lt;h3 id="5-path環境変数を設定">5. PATH環境変数を設定&lt;/h3>
 &lt;p>どのフォルダからでもHugoを使えるようにするために、PATH環境変数を設定します。&lt;/p>
 &lt;ol>
-&lt;li>**「システム環境変数の編集」**を開く（Windowsの検索バーで「環境変数」と入力すると出てきます）。&lt;/li>
+&lt;li>「システム環境変数の編集」を開く（Windowsの検索バーで「環境変数」と入力すると出る）。&lt;/li>
 &lt;li>「システム環境変数」の「Path」を選択して編集をクリック。&lt;/li>
 &lt;li>「新規」をクリックして、「C:\Hugo\bin」を追加。&lt;/li>
-&lt;li>保存してウィンドウを閉じます。&lt;/li>
+&lt;li>「保存」して完了。&lt;/li>
 &lt;/ol>
 &lt;h3 id="6-設定を確認">6. 設定を確認&lt;/h3>
 &lt;p>コマンドプロンプトを再起動して、フォルダ移動せずに以下を実行。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>hugo version
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>どのフォルダからでもHugoのバージョン情報が表示されれば、設定完了👌&lt;/p>
-&lt;h2 id="まとめ">まとめ&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>環境変数の設定は必須&lt;/strong>： PATHに追加すれば、どこからでもHugoを使えるようになる。&lt;/li>
-&lt;li>&lt;strong>確認は&lt;code>hugo version&lt;/code>&lt;/strong>： 使えるか一発でわかる。&lt;/li>
-&lt;/ul>
-&lt;p>これでWindowsにHugoをインストールできました。&lt;br>
-次はHugoを使って実際に静的サイトを作ってみましょう。Hugoの高速さと使いやすさをぜひ体験してみてください！&lt;/p></description></item><item><title>Hugo入門：静的サイトジェネレータの魅力</title><link>https://nexa-eng.com/posts/hugo/01-basic/01-intro/</link><pubDate>Sun, 04 May 2025 12:50:33 +0900</pubDate><guid>https://nexa-eng.com/posts/hugo/01-basic/01-intro/</guid><description>&lt;p>こんにちは。&lt;a href="https://nexa-eng.com/#about">フリーランスエンジニアの市原&lt;i class="fas fa-link">&lt;/i>&lt;/a>です。&lt;/p>
+&lt;p>以下のように、現在のブログ構成にGoとNode.jsのインストール手順を追加しました。Hugoの手順と同じトーンで記載しています。&lt;/p>
+&lt;h2 id="goとnodejsのインストール手順">GoとNode.jsのインストール手順&lt;/h2>
+&lt;p>Hugoを使う際に、テーマのローカル確認やビルドでGoとNode.jsが必要になる場合があります。&lt;br>
+ついでなので、WindowsにGoとNode.jsをインストールしてしまいましょう。どちらもインストーラでポチポチで終わりです。&lt;/p>
+&lt;h3 id="1-goをインストール">1. Goをインストール&lt;/h3>
+&lt;p>まず、Goをインストールします。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Go公式サイトにアクセス&lt;/strong>&lt;br>
+&lt;a href="https://go.dev/dl/" target="_blank" rel="noopener">Go公式ダウンロードページ &lt;i class="fa-solid fa-arrow-up-right-from-square">&lt;/i>&lt;/a>にアクセスします。&lt;/p></description></item><item><title>Hugo入門：静的サイトジェネレータの魅力</title><link>https://nexa-eng.com/posts/hugo/01-basic/01-intro/</link><pubDate>Sun, 04 May 2025 12:50:33 +0900</pubDate><guid>https://nexa-eng.com/posts/hugo/01-basic/01-intro/</guid><description>&lt;p>こんにちは。&lt;a href="https://nexa-eng.com/#about">フリーランスエンジニアの市原&lt;i class="fas fa-link">&lt;/i>&lt;/a>です。&lt;/p>
 &lt;p>このページでは、Hugoという静的サイトジェネレーター（SSG）について初心者目線で情報を整理しています。&lt;br>
 これからHugoを使ってみたい人の参考になれば幸いです。&lt;/p>
 &lt;p>ちなみにこのサイトは Hugo + toha + GitHub Pages + XSever Domainにより&lt;strong>初年度1円&lt;/strong>で公開されています。&lt;/p>
