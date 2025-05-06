@@ -7,5 +7,5 @@ menu:
     identifier: hugo
     weight: 20
 hero: images/forest.jpg
-draft: true
+draft: false
 ---
