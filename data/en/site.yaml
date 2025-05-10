@@ -13,19 +13,19 @@ description: Portfolio of Software Development and personal blog of Kentaro Ichi
 customMenus:
   # Posts menu (hidden from navbar, shown in footer)
   - name: Posts
-    url: posts/
+    url: /posts/
     hideFromNavbar: true
     showOnFooter: true
 
   # Privacy Policy menu
   - name: Privacy Policy
-    url: privacy-policy/
+    url: /privacy-policy/
     hideFromNavbar: false
     showOnFooter: true
 
   # Contact menu
   - name: Contact
-    url: contact/
+    url: /contact/
     hideFromNavbar: false
     showOnFooter: true
 
